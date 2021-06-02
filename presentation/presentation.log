@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.30)  1 JUN 2021 20:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.30)  2 JUN 2021 02:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -865,6 +865,11 @@ flibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \arrowsize=\dimen297
 ))
+(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/jknapltx/mathrsfs.
+sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerfontt
 hemeserif.sty)
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
@@ -875,24 +880,24 @@ File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 ) (./presentation.aux)
 \openout1 = `presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -940,7 +945,7 @@ df-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 36.
+Package hyperref Info: Link coloring OFF on input line 37.
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.s
 ty
@@ -956,9 +961,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count335
 )
-LaTeX Info: Redefining \ref on input line 36.
-LaTeX Info: Redefining \pageref on input line 36.
-LaTeX Info: Redefining \nameref on input line 36.
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
  (./presentation.out) (./presentation.out)
 \@outlinefile=\write5
 \openout5 = `presentation.out'.
@@ -990,7 +995,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 ) (./presentation.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 40.
+(hyperref)                setting the option has no effect on input line 41.
 
 [1{c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdf
 tex.map}
@@ -999,22 +1004,27 @@ tex.map}
 
 ] [3
 
+] [4
+
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
 
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
 
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-[4
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 83
+.
 
-] [5
+(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+) [5
 
 ] [6
 
@@ -1030,6 +1040,33 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [12
 
+] [13
+
+] [14
+
+] [15
+
+] [16
+
+] [17
+
+]
+LaTeX Font Info:    Trying to load font information for U+euf on input line 220
+.
+
+(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
+[18
+
+] [19
+
+] [20
+
+] [21
+
+] [22
+
 ]
 \tf@nav=\write6
 \openout6 = `presentation.nav'.
@@ -1042,14 +1079,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  (./presentation.aux)
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 0305E6DD325883C9A13AC18EDDC2522E;186.
+(rerunfilecheck)             Checksum: E34F7FA487F34A1AD39958D21820468C;367.
  ) 
 Here is how much of TeX's memory you used:
- 24357 strings out of 480714
- 483476 string characters out of 5901596
- 764952 words of memory out of 5000000
- 41295 multiletter control sequences out of 15000+600000
- 414100 words of font info for 67 fonts, out of 8000000 for 9000
+ 24454 strings out of 480714
+ 485004 string characters out of 5901596
+ 779109 words of memory out of 5000000
+ 41355 multiletter control sequences out of 15000+600000
+ 415797 words of font info for 76 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  101i,19n,108p,416b,779s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfont
@@ -1058,20 +1095,22 @@ public/amsfonts/cm/cmex10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Users/maxim/AppData/Roaming/Tin
 yTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/Users/maxim/AppDat
 a/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Users
-/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
-.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmss12.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmss8.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/Users/maxim/AppData/Roaming
-/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/Users/maxim/
-AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c
-:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy8.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/publi
-c/amsfonts/symbols/msbm10.pfb>
-Output written on presentation.pdf (12 pages, 134343 bytes).
+/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.p
+fb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmss10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmss12.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/Users/maxim/AppData/Roaming/Tin
+yTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/Users/maxim/App
+Data/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/
+Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts
+/type1/public/amsfonts/euler/eufm10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX
+/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on presentation.pdf (22 pages, 172648 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
- 270 compressed objects within 3 object streams
- 28 named destinations out of 1000 (max. 500000)
- 59 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 806 PDF objects out of 1000 (max. 8388607)
+ 728 compressed objects within 8 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 75 words of extra memory for PDF output out of 10000 (max. 10000000)
 

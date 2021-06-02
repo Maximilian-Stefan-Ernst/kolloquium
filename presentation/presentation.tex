@@ -24,6 +24,7 @@
 \usepackage{amsmath,amsfonts}
 \usepackage{tikz}
 \usetikzlibrary{shapes.geometric, arrows}
+\usepackage{mathrsfs}
 \usefonttheme[onlymath]{serif}
 
 \newcommand{\R}{\mathbb{R}}
@@ -36,7 +37,7 @@
 \begin{document}
 
 \title{Charakteristische Funktionen}
-%\subtitle{Am Beispiel von Git und GitHub}
+%\subtitle{}
 \author{Maximilian Ernst}
 \date{\today}
 \begin{frame}
@@ -50,7 +51,22 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
 \frametitle{Dualität}
-Wir schauen auf zwei Seiten der selben Medaille.
+\textit{Manchmal bilden sehr unterschiedliche mathematische Objekte nur zwei Seiten der selben Medaille}
+
+\hfill \newline
+\hfill \newline
+
+Ziel: Jeder (reellwertigen) Zufallsvariable ein möglichst "einfaches" mathematisches "Objekt" zuordnen, sodass wir Berechnungen und Beweise mit diesem Objekt (statt der Zufallsvariable) machen.
+\end{frame}
+
+\begin{frame}
+\frametitle{Ziel}
+\begin{itemize}
+    \setlength\itemsep{1em}
+    \item[--] Verteilung der Summe unabhängiger Zufallsvariablen
+    \item[--] Berechnung von Momenten
+    \item[--] Beweis von Verteilungskonvergenzen
+\end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -63,12 +79,27 @@ Die duale Menge ist die Menge alle einbeschriebenen Quadrate.
 \node (end) [rectangle, minimum width=0.7061cm, minimum height=0.7061cm, text centered, draw=black, fill=red!30] {};
 \end{tikzpicture}
 
-Die Relation $>$ für den Flächeninhalt bleibt erhalten. Wollen wir also wissen, ob ein Kreis größer als ein anderer ist, können wir stattdessen auch schauen, ob das einbeschrieben Quadrat größer ist.
+Die Relation $>$ für den Flächeninhalt bleibt erhalten. Wollen wir also wissen, ob ein Kreis größer als ein anderer ist, können wir stattdessen auch schauen, ob das einbeschriebene Quadrat größer ist.
 \end{frame}
 
 \begin{frame}
 \frametitle{Beispiel 2}
-Es gilt (bei fester Basis): jeder linearen Funktionen $f: \R^n \mapsto \R^n$ kann eineindeutig eine Matrix zugeordnet werden, die sogennante Darstellungsmatrix $\M_f$, sodass gilt:
+Logarithmieren zur Berechnung von Produkten.
+
+Die Menge sind die positiven reellen Zahlen, und die duale Menge sind auch die positiven reellen Zahlen.
+
+Die strukturerhaltende Abbildung ist der Logarithmus; die Multiplikation von reellen Zahlen entspricht der Addition:
+
+$$\ln xy = \ln x + \ln y $$
+
+Zur Berechnung großer Produkte:
+Berechne den Logarithmus; addiere das Ergebnis; nimm $\exp$ des Ergebnisses.
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Beispiel 3}
+Es gilt (bei fester Basis): jeder linearen Funktionen $f: \R^n \to \R^n$ kann eineindeutig eine Matrix zugeordnet werden, die sogennante Darstellungsmatrix $\M_f$, sodass gilt:
 
 $$f(x) = \M_fx$$
 
@@ -98,26 +129,14 @@ Beweis:
   \item \textbf{Führe den Beweis in der dualen Struktur:} \hfill \break
   Da $f, g$ bijektiv sind, ist auch $f \circ g$ bijektiv.
   \item \textbf{Gehe zurück in die ursrüngliche Menge:} \hfill \break
-    Es ist dann $\A \B$ die Darstellungsmatrix von $f \circ g$, und     da $f \circ g$ bijektiv ist, ist $\A \B$ invertierbar.
+    Es ist dann $\A \B$ die Darstellungsmatrix von $f \circ g$, und da $f \circ g$ bijektiv ist, ist $\A \B$ invertierbar.
 \end{enumerate}
 
-
 \end{frame}
 
-\begin{frame}
-\frametitle{Ziel}
-Jeder (reellwertigen) Zufallsvariable ein möglichst "einfaches" mathematisches "Objekt" zuordnen, sodass wir Dinge einfacher berechnen/beweisen können.
-\end{frame}
-
-\begin{frame}
-\frametitle{Ziel}
-\begin{itemize}
-    \setlength\itemsep{1em}
-    \item[--] Verteilung der Summe unabhängiger Zufallsvariablen
-    \item[--] Berechnung von Momenten
-    \item[--] Berechnung von Verteilungskonvergenzen
-\end{itemize}
-\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Definition}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}
 \frametitle{Mittel}
@@ -150,6 +169,69 @@ $\varphi$ sollte besonders "einfach" sein
     \item[--] gleichmäßig stetig
 \end{itemize}
 \end{frame}
+
+\begin{frame}
+\frametitle{Berechnungsbeispiel + zeigen, dass die Funktion einfach ist}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Anwendung}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Faltung - Dichten}
+  Seien $X, Y$ unabhängige reellwertige ZV die beide eine Dichte $f^X, f^Y$ besitzen. Dann besitzt $X+Y$ die Dichte
+
+\begin{equation*}
+  f^{X+Y}(z) = \int_{\R} f^X(z - y)f^Y(y) \dint y, \; z \in \R
+\end{equation*}
+
+(eng.: convolution)
+\end{frame}
+
+\begin{frame}
+\frametitle{Faltung - CF}
+  Seien $X, Y$ unabhängige reellwertige ZV mit charakteristischen Funktionen $\varphi^X, \varphi^Y$. Dann besitzt $X + Y$ die charakteristische Funktion
+$$\varphi^{X+Y} = \varphi^X \varphi^Y$$
+\end{frame}
+
+\begin{frame}
+\frametitle{Faltung - Beispiel}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Momente}
+Besitzt die ZV $X \; p$ endliche Momente, ist $\varphi^X \; p$-mal stetig differenzierbar und es gilt für $k < p$
+
+\begin{equation*}
+\E[X^k] = \frac{(\varphi^X)^{(k)}(0)}{i}
+\end{equation*}
+\end{frame}
+
+\begin{frame}
+\frametitle{Momente - Beispiel}
+\end{frame}
+
+\begin{frame}
+\frametitle{Konvergenz in Verteilung}
+\textbf{Stetigkeitssatz von Levy:} \hfill \newline
+Seien $P_n$ Wahrscheinlichkeitsmaße auf $(\R, \mathfrak{B}_\R)$ mit charakteristischen Funktionen $\varphi_n$ und gilt $\lim_{n \to \infty} \varphi_n (x) = \varphi(x)$ für alle $x \in \R$ und eine bei $x = 0$ stetige Funktion $\varphi$, so ist $\varphi$ die charakteristische Funktion eines Wahrscheinlichkeitsmaßes $P$ auf $(\R, \mathfrak{B}_\R)$ und es gilt: $P_n \to P$.
+\end{frame}
+
+\begin{frame}
+\frametitle{Konvergenz in Verteilung - Beispiel}
+Poissonscher Grenzwertsatz oder ZGWS
+\end{frame}
+
+\begin{frame}
+\frametitle{}
+\end{frame}
+
+\begin{frame}
+\frametitle{}
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Referenzen}
