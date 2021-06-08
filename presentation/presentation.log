@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.3)  8 JUN 2021 23:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.3)  8 JUN 2021 23:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1047,7 +1047,12 @@ Overfull \vbox (7.94571pt too high) detected at line 100
 
 ] [11
 
-] [12
+]
+Overfull \hbox (11.7248pt too wide) detected at line 162
+[]
+ []
+
+[12
 
 ] [13
 
@@ -1068,22 +1073,19 @@ Overfull \vbox (7.94571pt too high) detected at line 100
 ] [21
 
 ]
-[22
-
-]
-LaTeX Font Info:    Trying to load font information for U+euf on input line 271
+LaTeX Font Info:    Trying to load font information for U+euf on input line 247
 .
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
-[23
+[22
+
+] [23
 
 ] [24
 
 ] [25
-
-] [26
 
 ]
 \tf@nav=\write6
@@ -1100,42 +1102,42 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: E34F7FA487F34A1AD39958D21820468C;367.
  ) 
 Here is how much of TeX's memory you used:
- 24580 strings out of 480517
- 487670 string characters out of 5898339
- 794826 words of memory out of 5000000
- 41668 multiletter control sequences out of 15000+600000
- 417813 words of font info for 84 fonts, out of 8000000 for 9000
+ 24520 strings out of 480517
+ 486319 string characters out of 5898339
+ 792892 words of memory out of 5000000
+ 41616 multiletter control sequences out of 15000+600000
+ 414267 words of font info for 70 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  101i,19n,108p,416b,777s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmex10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dis
-t/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c:/Users/maxim/AppData/Roaming
-/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Users/maxim/A
-ppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/
-Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi8.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi9.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/Users/maxim/AppData/Roaming/
-TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/Users/maxim/AppD
-ata/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/Us
-ers/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-s12.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmss8.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmssbx10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/Users/maxim/AppData/Roa
-ming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users/max
-im/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-<c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy8.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy9.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fo
-nts/type1/public/amsfonts/euler/eufm10.pfb><c:/Users/maxim/AppData/Roaming/Tiny
-TeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on presentation.pdf (26 pages, 250139 bytes).
+s/cm/cmex10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/
+public/amsfonts/cmextra/cmex9.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Users/maxim/AppData/Roaming
+/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/Users/maxim/Ap
+pData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/U
+sers/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi9.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr6.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/Users/maxim/AppData/Roaming/Ti
+nyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/Users/maxim/AppDat
+a/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/User
+s/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss1
+2.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmss8.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmssbx10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/Users/maxim/AppData/Roami
+ng/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users/maxim
+/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c
+:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy9.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/font
+s/type1/public/amsfonts/euler/eufm10.pfb><c:/Users/maxim/AppData/Roaming/TinyTe
+X/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on presentation.pdf (25 pages, 247742 bytes).
 PDF statistics:
- 1083 PDF objects out of 1200 (max. 8388607)
- 968 compressed objects within 10 object streams
- 58 named destinations out of 1000 (max. 500000)
+ 1023 PDF objects out of 1200 (max. 8388607)
+ 910 compressed objects within 10 object streams
+ 56 named destinations out of 1000 (max. 500000)
  75 words of extra memory for PDF output out of 10000 (max. 10000000)
 

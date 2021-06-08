@@ -121,7 +121,7 @@ Ziel: Jeder (reellwertigen) Zufallsvariable ein möglichst "einfaches" mathemati
 \end{frame}
 
 \begin{frame}
-\frametitle{Beispiel 1}
+\frametitle{Beispiel 1 - Flächeninhalt von Kreisen}
 Betrachte die Menge aller Kreise.
 
 Die duale Menge ist die Menge alle einbeschriebenen Quadrate.
@@ -134,18 +134,29 @@ Die Relation $>$ für den Flächeninhalt bleibt erhalten. Wollen wir also wissen
 \end{frame}
 
 \begin{frame}
-\frametitle{Beispiel 2}
-Logarithmieren zur Berechnung von Produkten.
-
-Die Menge sind die positiven reellen Zahlen, und die duale Menge sind auch die positiven reellen Zahlen.
-
-Die strukturerhaltende Abbildung ist der Logarithmus; die Multiplikation von reellen Zahlen entspricht der Addition:
+\frametitle{Beispiel 2 - Berechnung von Produkten}
 
 $$\ln xy = \ln x + \ln y $$
 
 Zur Berechnung großer Produkte:
 Berechne den Logarithmus; addiere das Ergebnis; nimm $\exp$ des Ergebnisses.
 
+\end{frame}
+
+\begin{frame}
+\frametitle{Beispiel 2 - Berechnung von Produkten}
+{\footnotesize
+\begin{align*}
+L(x_1, \dots, x_n|\mu, \Sigma) &= \prod_{i = 1}^{n} L(x_i|\mu, \Sigma)\\
+&= \prod_{i = 1}^{n} (2 \pi)^{-d/2} \det(\Sigma)^{-1/2} \exp(- \frac{1}{2} (x_i - \mu)^T \Sigma^{-1} (x_i - \mu))
+\end{align*}
+
+\begin{align*}
+\log L(x_1, \dots, x_n|\mu, \Sigma) &= \sum_{i = 1}^{n} \log L(x_i|\mu, \Sigma)\\
+&= \sum_{i = 1}^{n} -\frac{d}{2} \log 2\pi -\frac{1}{2} \log \det(\Sigma) - \frac{1}{2} (x_i - \mu)^T \Sigma^{-1} (x_i - \mu)
+\end{align*}
+
+}%
 
 
 \end{frame}

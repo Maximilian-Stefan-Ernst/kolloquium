@@ -1,3 +1,3 @@
 \beamer@sectionintoc {1}{Motivation}{3}{0}{1}
-\beamer@sectionintoc {2}{Definition}{14}{0}{2}
-\beamer@sectionintoc {3}{Anwendung}{18}{0}{3}
+\beamer@sectionintoc {2}{Definition}{13}{0}{2}
+\beamer@sectionintoc {3}{Anwendung}{17}{0}{3}
