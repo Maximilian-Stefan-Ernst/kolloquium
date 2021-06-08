@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.30)  2 JUN 2021 02:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.3)  8 JUN 2021 23:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **presentation.tex
 (./presentation.tex
-LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-05-27>
+LaTeX2e <2021-06-01>
+L3 programming layer <2021-06-01>
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2021/05/26 v3.63 A class for typesetting presentations
 
@@ -14,20 +14,20 @@ odes.sty
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.
 sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count181
+\etb@tempcnta=\count182
 )
-\beamer@tempbox=\box47
-\beamer@tempcount=\count182
-\c@beamerpauses=\count183
+\beamer@tempbox=\box50
+\beamer@tempcount=\count183
+\c@beamerpauses=\count184
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbased
 ecode.sty
-\beamer@slideinframe=\count184
-\beamer@minimum=\count185
-\beamer@decode@box=\box48
+\beamer@slideinframe=\count185
+\beamer@minimum=\count186
+\beamer@decode@box=\box51
 )
-\beamer@commentbox=\box49
-\beamer@modecount=\count186
+\beamer@commentbox=\box52
+\beamer@modecount=\count187
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
@@ -52,39 +52,39 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \beamer@descdefault=\dimen152
 \beamer@descriptionwidth=\dimen153
 \beamer@lastskip=\skip47
-\beamer@areabox=\box50
-\beamer@animcurrent=\box51
-\beamer@animshowbox=\box52
-\beamer@sectionbox=\box53
-\beamer@logobox=\box54
-\beamer@linebox=\box55
-\beamer@sectioncount=\count187
-\beamer@subsubsectionmax=\count188
-\beamer@subsectionmax=\count189
-\beamer@sectionmax=\count190
-\beamer@totalheads=\count191
-\beamer@headcounter=\count192
-\beamer@partstartpage=\count193
-\beamer@sectionstartpage=\count194
-\beamer@subsectionstartpage=\count195
-\beamer@animationtempa=\count196
-\beamer@animationtempb=\count197
-\beamer@xpos=\count198
-\beamer@ypos=\count199
-\beamer@ypos@offset=\count266
-\beamer@showpartnumber=\count267
-\beamer@currentsubsection=\count268
-\beamer@coveringdepth=\count269
-\beamer@sectionadjust=\count270
-\beamer@toclastsection=\count271
-\beamer@tocsectionnumber=\count272
+\beamer@areabox=\box53
+\beamer@animcurrent=\box54
+\beamer@animshowbox=\box55
+\beamer@sectionbox=\box56
+\beamer@logobox=\box57
+\beamer@linebox=\box58
+\beamer@sectioncount=\count188
+\beamer@subsubsectionmax=\count189
+\beamer@subsectionmax=\count190
+\beamer@sectionmax=\count191
+\beamer@totalheads=\count192
+\beamer@headcounter=\count193
+\beamer@partstartpage=\count194
+\beamer@sectionstartpage=\count195
+\beamer@subsectionstartpage=\count196
+\beamer@animationtempa=\count197
+\beamer@animationtempb=\count198
+\beamer@xpos=\count199
+\beamer@ypos=\count266
+\beamer@ypos@offset=\count267
+\beamer@showpartnumber=\count268
+\beamer@currentsubsection=\count269
+\beamer@coveringdepth=\count270
+\beamer@sectionadjust=\count271
+\beamer@toclastsection=\count272
+\beamer@tocsectionnumber=\count273
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseo
 ptions.sty
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval.st
 y
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
+\KV@toks@=\toks16
 ))
 \beamer@paperwidth=\skip48
 \beamer@paperheight=\skip49
@@ -96,9 +96,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count273
-\Gm@cntv=\count274
-\c@Gm@tempcnt=\count275
+\Gm@cnth=\count274
+\Gm@cntv=\count275
+\c@Gm@tempcnt=\count276
 \Gm@bindingoffset=\dimen154
 \Gm@wd@mp=\dimen155
 \Gm@odd@mp=\dimen156
@@ -107,19 +107,19 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen159
 \Gm@layouthoffset=\dimen160
 \Gm@layoutvoffset=\dimen161
-\Gm@dimlist=\toks16
+\Gm@dimlist=\toks17
 ) (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+File: size11.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf
 core.sty
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.
 sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphics.
 sty
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -128,7 +128,7 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 ics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 107.
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/pdfte
 x.def
@@ -143,7 +143,7 @@ fsys.sty
 cs.sty
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pg
 futil-common.tex
-\pgfutil@everybye=\toks17
+\pgfutil@everybye=\toks18
 \pgfutil@tempdima=\dimen164
 \pgfutil@tempdimb=\dimen165
 
@@ -151,7 +151,7 @@ futil-common.tex
 futil-common-lists.tex))
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pg
 futil-latex.def
-\pgfutil@abb=\box56
+\pgfutil@abb=\box59
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pg
 frcs.code.tex
@@ -165,12 +165,12 @@ Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pg
 fkeys.code.tex
-\pgfkeys@pathtoks=\toks18
-\pgfkeys@temptoks=\toks19
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pg
 fkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks20
+\pgfkeys@tmptoks=\toks21
 ))
 \pgf@x=\dimen166
 \pgf@y=\dimen167
@@ -184,14 +184,14 @@ fkeysfiltered.code.tex
 \pgf@yd=\dimen175
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count276
-\c@pgf@countb=\count277
-\c@pgf@countc=\count278
-\c@pgf@countd=\count279
-\t@pgf@toka=\toks21
-\t@pgf@tokb=\toks22
-\t@pgf@tokc=\toks23
-\pgf@sys@id@count=\count280
+\c@pgf@counta=\count277
+\c@pgf@countb=\count278
+\c@pgf@countc=\count279
+\c@pgf@countd=\count280
+\t@pgf@toka=\toks22
+\t@pgf@tokb=\toks23
+\t@pgf@tokc=\toks24
+\pgf@sys@id@count=\count281
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
 pgf.cfg
@@ -210,8 +210,8 @@ File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
 pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count281
-\pgfsyssoftpath@bigbuffer@items=\count282
+\pgfsyssoftpath@smallbuffer@items=\count282
+\pgfsyssoftpath@bigbuffer@items=\count283
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
 pgfsysprotocol.code.tex
@@ -248,11 +248,11 @@ util.code.tex)
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
 parser.code.tex
 \pgfmath@dimen=\dimen176
-\pgfmath@count=\count283
-\pgfmath@box=\box57
-\pgfmath@toks=\toks24
-\pgfmath@stack@operand=\toks25
-\pgfmath@stack@operation=\toks26
+\pgfmath@count=\count284
+\pgfmath@box=\box60
+\pgfmath@toks=\toks25
+\pgfmath@stack@operand=\toks26
+\pgfmath@stack@operation=\toks27
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
 functions.code.tex
@@ -274,7 +274,7 @@ functions.misc.code.tex)
 functions.integerarithmetics.code.tex)))
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
 float.code.tex
-\c@pgfmathroundto@lastzeros=\count284
+\c@pgfmathroundto@lastzeros=\count285
 ))
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.
 code.tex)
@@ -311,10 +311,10 @@ File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box58
-\pgf@hbox=\box59
-\pgf@layerbox@main=\box60
-\pgf@picture@serial@count=\count285
+\pgfpic=\box61
+\pgf@hbox=\box62
+\pgf@layerbox@main=\box63
+\pgf@picture@serial@count=\count286
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcoregraphicstate.code.tex
@@ -349,8 +349,8 @@ File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 gfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen256
-\pgf@sys@shading@range@num=\count286
-\pgf@shadingcount=\count287
+\pgf@sys@shading@range@num=\count287
+\pgf@shadingcount=\count288
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcoreimage.code.tex
@@ -359,7 +359,7 @@ File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box61
+\pgfexternal@startupbox=\box64
 ))
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcorelayers.code.tex
@@ -380,14 +380,13 @@ File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/xxco
 lor.sty
 Package: xxcolor 2003/10/24 ver 0.1
-\XC@nummixins=\count288
-\XC@countmixins=\count289
+\XC@nummixins=\count289
+\XC@countmixins=\count290
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.
 sty
-Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
-ge
-with kernel methods
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.
 sty
@@ -439,8 +438,8 @@ s.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen257
-\Hy@linkcounter=\count290
-\Hy@pagecounter=\count291
+\Hy@linkcounter=\count291
+\Hy@pagecounter=\count292
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.de
 f
@@ -461,7 +460,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 s.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count292
+\Hy@SavedSpaceFactor=\count293
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
@@ -478,7 +477,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count293
+\c@Hy@tempcnt=\count294
  (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -495,7 +494,7 @@ tcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count294
+\Fld@menulength=\count295
 \Field@Width=\dimen259
 \Fld@charsize=\dimen260
 Package hyperref Info: Hyper figures OFF on input line 6075.
@@ -507,7 +506,7 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6100.
 Package hyperref Info: PDF/A mode OFF on input line 6105.
 LaTeX Info: Redefining \ref on input line 6145.
 LaTeX Info: Redefining \pageref on input line 6149.
-\Hy@abspage=\count295
+\Hy@abspage=\count296
 
 
 Package hyperref Message: Stopped early.
@@ -525,8 +524,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count296
-\c@bookmark@seq@number=\count297
+\Fld@listcount=\count297
+\c@bookmark@seq@number=\count298
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rer
 unfilecheck.sty
@@ -552,7 +551,7 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.
 sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks27
+\@emptytoks=\toks28
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
@@ -563,7 +562,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ranslator.sty
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/translator/transla
 tor.sty
-Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
+Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 ))
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasem
 isc.sty)
@@ -571,36 +570,36 @@ isc.sty)
 woscreens.sty)
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseo
 verlay.sty
-\beamer@argscount=\count298
+\beamer@argscount=\count299
 \beamer@lastskipcover=\skip50
-\beamer@trivlistdepth=\count299
+\beamer@trivlistdepth=\count300
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaset
 itle.sty)
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbases
 ection.sty
-\c@lecture=\count300
-\c@part=\count301
-\c@section=\count302
-\c@subsection=\count303
-\c@subsubsection=\count304
+\c@lecture=\count301
+\c@part=\count302
+\c@section=\count303
+\c@subsection=\count304
+\c@subsubsection=\count305
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasef
 rame.sty
-\beamer@framebox=\box62
-\beamer@frametitlebox=\box63
-\beamer@zoombox=\box64
-\beamer@zoomcount=\count305
-\beamer@zoomframecount=\count306
+\beamer@framebox=\box65
+\beamer@frametitlebox=\box66
+\beamer@zoombox=\box67
+\beamer@zoomcount=\count306
+\beamer@zoomframecount=\count307
 \beamer@frametextheight=\dimen261
-\c@subsectionslide=\count307
+\c@subsectionslide=\count308
 \beamer@frametopskip=\skip51
 \beamer@framebottomskip=\skip52
 \beamer@frametopskipautobreak=\skip53
 \beamer@framebottomskipautobreak=\skip54
-\beamer@envbody=\toks28
+\beamer@envbody=\toks29
 \framewidth=\dimen262
-\c@framenumber=\count308
+\c@framenumber=\count309
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasev
 erbatim.sty
@@ -608,34 +607,34 @@ erbatim.sty
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasef
 ramesize.sty
-\beamer@splitbox=\box65
-\beamer@autobreakcount=\count309
+\beamer@splitbox=\box68
+\beamer@autobreakcount=\count310
 \beamer@autobreaklastheight=\dimen263
-\beamer@frametitletoks=\toks29
-\beamer@framesubtitletoks=\toks30
+\beamer@frametitletoks=\toks30
+\beamer@framesubtitletoks=\toks31
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasef
 ramecomponents.sty
-\beamer@footins=\box66
+\beamer@footins=\box69
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasec
 olor.sty)
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasen
 otes.sty
-\beamer@frameboxcopy=\box67
+\beamer@frameboxcopy=\box70
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaset
 oc.sty)
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaset
 emplates.sty
-\beamer@sbttoks=\toks31
+\beamer@sbttoks=\toks32
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasea
 uxtemplates.sty
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaseb
 oxes.sty
-\bmb@box=\box68
-\bmb@colorbox=\box69
+\bmb@box=\box71
+\bmb@colorbox=\box72
 \bmb@boxwidth=\dimen264
 \bmb@boxheight=\dimen265
 \bmb@prevheight=\dimen266
@@ -651,11 +650,11 @@ ocalstructure.sty
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/enumerate.st
 y
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks32
+\@enLab=\toks33
 )
 \beamer@bibiconwidth=\skip55
-\c@figure=\count310
-\c@table=\count311
+\c@figure=\count311
+\c@table=\count312
 \abovecaptionskip=\skip56
 \belowcaptionskip=\skip57
 )
@@ -667,7 +666,7 @@ avigation.sty
 heorems.sty
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.st
 y
-Package: amsmath 2020/09/23 v2.17i AMS math features
+Package: amsmath 2021/04/20 v2.17j AMS math features
 \@mathmargin=\skip58
 
 For additional information on amsmath, use the `?' option.
@@ -678,7 +677,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks33
+\@emptytoks=\toks34
 \ex@=\dimen273
 ))
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -688,57 +687,57 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count312
+\inf@bad=\count313
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count313
-\leftroot@=\count314
+\uproot@=\count314
+\leftroot@=\count315
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count315
-\DOTSCASE@=\count316
+\classnum@=\count316
+\DOTSCASE@=\count317
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box70
-\strutbox@=\box71
+\Mathstrutbox@=\box73
+\strutbox@=\box74
 \big@size=\dimen275
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count317
-\c@MaxMatrixCols=\count318
+\macc@depth=\count318
+\c@MaxMatrixCols=\count319
 \dotsspace@=\muskip17
-\c@parentequation=\count319
-\dspbrk@lvl=\count320
-\tag@help=\toks34
-\row@=\count321
-\column@=\count322
-\maxfields@=\count323
-\andhelp@=\toks35
+\c@parentequation=\count320
+\dspbrk@lvl=\count321
+\tag@help=\toks35
+\row@=\count322
+\column@=\count323
+\maxfields@=\count324
+\andhelp@=\toks36
 \eqnshift@=\dimen276
 \alignsep@=\dimen277
 \tagshift@=\dimen278
 \tagwidth@=\dimen279
 \totwidth@=\dimen280
 \lineht@=\dimen281
-\@envbody=\toks36
+\@envbody=\toks37
 \multlinegap=\skip59
 \multlinetaggap=\skip60
-\mathdisplay@stack=\toks37
+\mathdisplay@stack=\toks38
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks38
-\thm@bodyfont=\toks39
-\thm@headfont=\toks40
-\thm@notefont=\toks41
-\thm@headpunct=\toks42
+\thm@style=\toks39
+\thm@bodyfont=\toks40
+\thm@headfont=\toks41
+\thm@notefont=\toks42
+\thm@headpunct=\toks43
 \thm@preskip=\skip61
 \thm@postskip=\skip62
 \thm@headsep=\skip63
-\dth@everypar=\toks43
+\dth@everypar=\toks44
 )
-\c@theorem=\count324
+\c@theorem=\count325
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbaset
 hemes.sty))
@@ -771,7 +770,7 @@ Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfm
 oduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box72
+\pgfnodeparttextbox=\box75
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfm
 oduleplot.code.tex
@@ -805,8 +804,8 @@ Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 .code.tex)
 \pgffor@iter=\dimen286
 \pgffor@skip=\dimen287
-\pgffor@stack=\toks44
-\pgffor@toks=\toks45
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
 ))
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlaye
 r/tikz/tikz.code.tex
@@ -815,7 +814,7 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pg
 flibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count325
+\pgf@plot@mark@count=\count326
 \pgfplotmarksize=\dimen288
 )
 \tikz@lastx=\dimen289
@@ -826,23 +825,23 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@lastmovetoy=\dimen294
 \tikzleveldistance=\dimen295
 \tikzsiblingdistance=\dimen296
-\tikz@figbox=\box73
-\tikz@figbox@bg=\box74
-\tikz@tempbox=\box75
-\tikz@tempbox@bg=\box76
-\tikztreelevel=\count326
-\tikznumberofchildren=\count327
-\tikznumberofcurrentchild=\count328
-\tikz@fig@count=\count329
+\tikz@figbox=\box76
+\tikz@figbox@bg=\box77
+\tikz@tempbox=\box78
+\tikz@tempbox@bg=\box79
+\tikztreelevel=\count327
+\tikznumberofchildren=\count328
+\tikznumberofcurrentchild=\count329
+\tikz@fig@count=\count330
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfm
 odulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count330
-\pgfmatrixcurrentcolumn=\count331
-\pgf@matrix@numberofcolumns=\count332
+\pgfmatrixcurrentrow=\count331
+\pgfmatrixcurrentcolumn=\count332
+\pgf@matrix@numberofcolumns=\count333
 )
-\tikz@expandcount=\count333
+\tikz@expandcount=\count334
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlaye
 r/tikz/libraries/tikzlibrarytopaths.code.tex
@@ -875,8 +874,8 @@ hemeserif.sty)
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count334
-\l__pdf_internal_box=\box77
+\l__color_backend_stack_int=\count335
+\l__pdf_internal_box=\box80
 ) (./presentation.aux)
 \openout1 = `presentation.aux'.
 
@@ -959,7 +958,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count335
+\c@section@level=\count336
 )
 LaTeX Info: Redefining \ref on input line 37.
 LaTeX Info: Redefining \pageref on input line 37.
@@ -1002,31 +1001,41 @@ tex.map}
 
 ] (./presentation.toc) [2
 
-] [3
-
-] [4
-
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
 
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
 
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 83
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 65
 .
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [5
+) [3
 
-] [6
+] [4
+
+] [5
+
+]
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 100.
+
+
+Overfull \vbox (7.94571pt too high) detected at line 100
+ []
+
+[6
 
 ] [7
 
@@ -1050,14 +1059,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 ] [17
 
-]
-LaTeX Font Info:    Trying to load font information for U+euf on input line 220
-.
-
-(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/ueuf.fd
-File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)
-[18
+] [18
 
 ] [19
 
@@ -1065,7 +1067,20 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 
 ] [21
 
-] [22
+]
+LaTeX Font Info:    Trying to load font information for U+euf on input line 267
+.
+
+(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
+[22
+
+] [23
+
+] [24
+
+] [25
 
 ]
 \tf@nav=\write6
@@ -1082,35 +1097,42 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: E34F7FA487F34A1AD39958D21820468C;367.
  ) 
 Here is how much of TeX's memory you used:
- 24454 strings out of 480714
- 485004 string characters out of 5901596
- 779109 words of memory out of 5000000
- 41355 multiletter control sequences out of 15000+600000
- 415797 words of font info for 76 fonts, out of 8000000 for 9000
+ 24576 strings out of 480517
+ 487635 string characters out of 5898339
+ 793074 words of memory out of 5000000
+ 41666 multiletter control sequences out of 15000+600000
+ 417813 words of font info for 84 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 101i,19n,108p,416b,779s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,19n,108p,416b,777s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmex10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Users/maxim/AppData/Roaming/Tin
-yTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/Users/maxim/AppDat
-a/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Users
-/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.p
-fb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmss10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmss12.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/Users/maxim/AppData/Roaming/Tin
-yTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/Users/maxim/App
-Data/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/
+t/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c:/Users/maxim/AppData/Roaming
+/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Users/maxim/A
+ppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/
 Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy8.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts
-/type1/public/amsfonts/euler/eufm10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX
-/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on presentation.pdf (22 pages, 172648 bytes).
+mmi8.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi9.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/Users/maxim/AppData/Roaming/
+TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/Users/maxim/AppD
+ata/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/Us
+ers/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+s12.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmss8.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmssbx10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/Users/maxim/AppData/Roa
+ming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users/max
+im/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+<c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy8.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy9.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fo
+nts/type1/public/amsfonts/euler/eufm10.pfb><c:/Users/maxim/AppData/Roaming/Tiny
+TeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on presentation.pdf (25 pages, 248211 bytes).
 PDF statistics:
- 806 PDF objects out of 1000 (max. 8388607)
- 728 compressed objects within 8 object streams
- 50 named destinations out of 1000 (max. 500000)
+ 1023 PDF objects out of 1200 (max. 8388607)
+ 910 compressed objects within 10 object streams
+ 56 named destinations out of 1000 (max. 500000)
  75 words of extra memory for PDF output out of 10000 (max. 10000000)
 

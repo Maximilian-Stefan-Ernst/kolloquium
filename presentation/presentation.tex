@@ -50,23 +50,70 @@
 \section{Motivation}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
-\frametitle{Dualität}
-\textit{Manchmal bilden sehr unterschiedliche mathematische Objekte nur zwei Seiten der selben Medaille}
+\frametitle{Versicherungen}
+Wie viele Schadensmeldungen erhält eine Versicherung in einem Zeitintervall $(0, t)$?
 
+Überlegung:
 \hfill \newline
-\hfill \newline
+\begin{itemize}
+    \item[--] Wir zerlegen das Intervall in $n$ Teilintervalle der Länge $\frac{t}{n}$
+    \item[--] n groß $\to$ Teilintervalle kurz $\to$ Annahme, dass nur ein Schaden auftritt
+    \item[--] in einem Intervall kann also ein Schaden auftreten oder kein Schaden (mit Wahrscheinlichkeit $p$)
+    \item[--] $p = \alpha \frac{t}{n}$
+    \item[--] Die einzelnen Teilintervalle sind unabhängig.
+\end{itemize}
+\end{frame}
 
-Ziel: Jeder (reellwertigen) Zufallsvariable ein möglichst "einfaches" mathematisches "Objekt" zuordnen, sodass wir Berechnungen und Beweise mit diesem Objekt (statt der Zufallsvariable) machen.
+\begin{frame}
+\frametitle{Versicherungen}
+Wie viele Schadensmeldungen erhält eine Versicherung in einem Zeitintervall $(0, t)$?
+
+Das bedeutet: eine "Unglücksfee" zieht n mal eine "Kugel" auf der steht "Schaden" (mit Wahrscheinlichkeit $p$) oder "kein Schaden" (mit Wahrscheinlichkeit $1-p$), mit $p = \alpha \frac{t}{n}$.
+
+Anzahl der Schadensfälle $k \sim Bin_{n, \alpha \frac{t}{n}}$
+
+Je größer wir n wählen, desto besser die Approximation. Also:
+
+$$P(k) = \lim_{n \to \infty} Bin_{n, \alpha \frac{t}{n}}$$
+\end{frame}
+
+\begin{frame}
+\frametitle{Versicherungen}
+Sei $p_n$ eine Folge von Wahrscheinlichkeiten mit $n p_n \to \lambda$. Dann gilt:
+
+$$\lim_{n \to \infty} Bin_{n, p_n}(k) = Poiss_\lambda (k)$$
+\end{frame}
+
+\begin{frame}
+\frametitle{Versicherungen}
+{\footnotesize
+  \begin{align*}
+  {n \choose k} p_n^k(1-p_n)^k &= \frac{n!}{k!(n-k)!} p_n^k(1-p_n)^k\\
+  &= \frac{n^k}{k!} \frac{n!}{n^k(n-k)!} p_n^k(1-p_n)^k\\
+  &\sim \frac{n^k}{k!} p_n^k(1-p_n)^k\\
+  &= \frac{(np_n)^k}{k!}(1-p_n)^k\\
+  &= \frac{(np_n)^k}{k!}(1-\frac{np_n}{n})^k\\
+  &\sim \frac{\lambda^k}{k!}(1-\frac{\lambda}{n})^k\\
+  &\to \frac{\lambda^k}{k!}e^{-\lambda}\\
+  \end{align*}
+}%
 \end{frame}
 
 \begin{frame}
 \frametitle{Ziel}
+Ziel: Jeder (reellwertigen) Zufallsvariable ein möglichst "einfaches" mathematisches "Objekt" zuordnen, sodass wir Berechnungen und Beweise mit diesem Objekt (statt der Zufallsvariable) machen.
+\hfill \newline
 \begin{itemize}
-    \setlength\itemsep{1em}
     \item[--] Verteilung der Summe unabhängiger Zufallsvariablen
     \item[--] Berechnung von Momenten
     \item[--] Beweis von Verteilungskonvergenzen
 \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Dualität}
+\textit{Manchmal bilden sehr unterschiedliche mathematische Objekte nur zwei Seiten der selben Medaille}
 \end{frame}
 
 \begin{frame}
@@ -140,7 +187,7 @@ Beweis:
 
 \begin{frame}
 \frametitle{Mittel}
-Wir bestimmen eine (strukturerhaltende) bijektive Abbildung aus der Menge aller reellwertigen Zufallsvariablen in einen andere Menge.
+Wir bestimmen eine bijektive Abbildung aus der Menge aller reellwertigen Zufallsvariablen in einen andere Menge.
 
 Dann zeigen wir, dass wir anstelle mit den Zufallsvariablen zu rechnen, auch viel einfacher mit ihrem "Partner" rechnen können.
 \end{frame}
@@ -222,10 +269,6 @@ Seien $P_n$ Wahrscheinlichkeitsmaße auf $(\R, \mathfrak{B}_\R)$ mit charakteris
 \begin{frame}
 \frametitle{Konvergenz in Verteilung - Beispiel}
 Poissonscher Grenzwertsatz oder ZGWS
-\end{frame}
-
-\begin{frame}
-\frametitle{}
 \end{frame}
 
 \begin{frame}
