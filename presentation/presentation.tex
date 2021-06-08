@@ -100,6 +100,10 @@ $$\lim_{n \to \infty} Bin_{n, p_n}(k) = Poiss_\lambda (k)$$
 \end{frame}
 
 \begin{frame}
+$$\text{Geht das auch einfacher?} \to \text{Ja!}$$
+\end{frame}
+
+\begin{frame}
 \frametitle{Ziel}
 Ziel: Jeder (reellwertigen) Zufallsvariable ein möglichst "einfaches" mathematisches "Objekt" zuordnen, sodass wir Berechnungen und Beweise mit diesem Objekt (statt der Zufallsvariable) machen.
 \hfill \newline
@@ -142,42 +146,7 @@ $$\ln xy = \ln x + \ln y $$
 Zur Berechnung großer Produkte:
 Berechne den Logarithmus; addiere das Ergebnis; nimm $\exp$ des Ergebnisses.
 
-\end{frame}
 
-\begin{frame}
-\frametitle{Beispiel 3}
-Es gilt (bei fester Basis): jeder linearen Funktionen $f: \R^n \to \R^n$ kann eineindeutig eine Matrix zugeordnet werden, die sogennante Darstellungsmatrix $\M_f$, sodass gilt:
-
-$$f(x) = \M_fx$$
-
-Die erhalten bleibende Struktur ist die Verknüpfung von Funktionen:
-
-$$\M_{f \circ g} = \M_f \M_g$$
-
-Außerdem gilt:
-
-$$f \; \text{ist bijektiv} \iff \M_f \; \text{ist invertierbar}$$
-\end{frame}
-
-\begin{frame}
-\frametitle{Ein einfacher Beweis}
-$\A, \B \in \R^{n \times n}$ sind invertierbar $\implies \A \B$ ist invertierbar
-\hfill \break
-\hfill \break
-Beweis:
-\begin{enumerate}
-  \item \textbf{Gehe in die duale Menge:} \hfill \break
-  Es existieren lineare Funktionen $f, g: \R^n \to \R^n$ sodass
-  \begin{itemize}
-    \item[--] $\A$ die Darstellungsmatrix von $f$ ist
-    \item[--] $\B$ die Darstellungsmatrix von $g$ ist
-    \item[--] $f, g$ sind bijektiv
-  \end{itemize}
-  \item \textbf{Führe den Beweis in der dualen Struktur:} \hfill \break
-  Da $f, g$ bijektiv sind, ist auch $f \circ g$ bijektiv.
-  \item \textbf{Gehe zurück in die ursrüngliche Menge:} \hfill \break
-    Es ist dann $\A \B$ die Darstellungsmatrix von $f \circ g$, und da $f \circ g$ bijektiv ist, ist $\A \B$ invertierbar.
-\end{enumerate}
 
 \end{frame}
 
