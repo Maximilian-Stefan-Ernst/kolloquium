@@ -25,7 +25,7 @@
 \usepackage[backend=biber]{biblatex}
 \addbibresource{presentation/bibliography.bib}
 \usepackage{tikz}
-\usetikzlibrary{shapes.geometric, arrows}
+\usetikzlibrary{shapes.geometric, arrows, positioning, arrows.meta}
 \usepackage{mathrsfs}
 \usefonttheme[onlymath]{serif}
 \usepackage{graphicx}
@@ -54,10 +54,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
 \frametitle{Versicherungen}
-Wie viele Schadensmeldungen erhält eine Versicherung in einem Zeitintervall $(0, t)$?
-
-Überlegung:
+Wie viele Schadensmeldungen erhält eine Versicherung in einem Zeitintervall $(0, t)$?\\
 \hfill \newline
+
 \only<1>{
 \begin{itemize}
     \item[--] Wir zerlegen das Intervall in $n$ Teilintervalle der Länge $\frac{t}{n}$
@@ -86,17 +85,17 @@ Sei $p_n$ eine Folge von Wahrscheinlichkeiten mit $n p_n \to \lambda$. Dann gilt
 $$\lim_{n \to \infty} Bin_{n, p_n}(k) = Poiss_\lambda (k)$$
 \end{frame}
 
-\begin{frame}
+\begin{frame}[fragile]
 \frametitle{Versicherungen}
 {\footnotesize
   \begin{align*}
  \textcolor<2>{red}{{n \choose k}} p_n^k(1-p_n)^{n-k} &= \textcolor<2>{red}{\frac{n!}{k!(n-k)!}} p_n^k(1-p_n)^{n-k}\\
   &= \frac{\textcolor<3>{red}{n^k}}{k!} \textcolor<4>{red}{\frac{n!}{\textcolor<3>{red}{n^k}(n-k)!}} p_n^k(1-p_n)^{\textcolor<4>{red}{n-k}}\\
-  &\textcolor<4>{red}{\sim} \frac{\textcolor<5>{red}{n^k}}{k!} \textcolor<5>{red}{p_n^k}(1-p_n)^{\textcolor<4>{red}{n}}\\
+  \; &\sim \frac{\textcolor<5>{red}{n^k}}{k!} \textcolor<5>{red}{p_n^k}(1-p_n)^{\textcolor<4>{red}{n}}\\
   &= \frac{\textcolor<5>{red}{(np_n)^k}}{k!}(1-p_n)^n\\
-  &= \frac{(\textcolor<7>{red}{np_n})^k}{k!}(1-\frac{\textcolor<7>{red}{\textcolor<6>{red}{n}p_n}}{\textcolor<6>{red}{n}})^n\\
-  &\sim \frac{\textcolor<7>{red}{\lambda}^k}{k!}\textcolor<8>{red}{(1-\frac{\textcolor<7>{red}{\lambda}}{n})^n}\\
-  &\to \frac{\lambda^k}{k!}\textcolor<8>{red}{e^{-\lambda}}\\
+  &= \frac{(\textcolor<7>{red}{np_n})^k}{k!}\Big(1-\frac{\textcolor<7>{red}{\textcolor<6>{red}{n}p_n}}{\textcolor<6>{red}{n}}\Big)^n\\
+  &\sim \frac{\textcolor<7>{red}{\lambda}^k}{k!}\textcolor<8>{red}{\Big(1-\frac{\textcolor<7>{red}{\lambda}}{n}\Big)^n}\\
+  \only<8>{\textcolor{blue}{\tiny{\Bigg(1 + \frac{x}{n} \Bigg)^n \to e^x}} \hspace{5pt}} &\to \frac{\lambda^k}{k!}\textcolor<8>{red}{e^{-\lambda}}\\
   \end{align*}
 }%
 \end{frame}
@@ -107,7 +106,7 @@ $$\text{Geht das auch einfacher?} \to \text{Ja!}$$
 
 \begin{frame}
 \frametitle{Ziel}
-Ziel: Jeder (reellwertigen) Zufallsvariable ein möglichst "einfaches" mathematisches "Objekt" zuordnen, sodass wir Berechnungen und Beweise mit diesem Objekt (statt der Zufallsvariable) machen.
+Jeder (reellwertigen) Zufallsvariable ein möglichst "einfaches" mathematisches "Objekt" zuordnen, sodass wir Berechnungen und Beweise mit diesem Objekt (statt der Zufallsvariable) machen.
 \hfill \newline
 \begin{itemize}
     \item[--] Verteilung der Summe unabhängiger Zufallsvariablen
@@ -126,12 +125,12 @@ Ziel: Jeder (reellwertigen) Zufallsvariable ein möglichst "einfaches" mathemati
 \frametitle{Beispiel 1 - Flächeninhalt von Kreisen}
 Betrachte die Menge aller Kreise.
 
-Die duale Menge ist die Menge alle einbeschriebenen Quadrate.
+Die duale Menge ist die Menge aller einbeschriebenen Quadrate.\\
 \hfill \newline
 \begin{tikzpicture}
 \node (start) [circle, minimum width=1cm, minimum height=1cm, text centered, draw=black] {};
 \node (end) [rectangle, minimum width=0.7061cm, minimum height=0.7061cm, text centered, draw=black, fill=red!30] {};
-\end{tikzpicture}
+\end{tikzpicture}\\
 \hfill \newline
 Die Relation $>$ für den Flächeninhalt bleibt erhalten.
 \end{frame}
@@ -140,11 +139,14 @@ Die Relation $>$ für den Flächeninhalt bleibt erhalten.
 \frametitle{Beispiel 2 - Berechnung von Produkten}
 
 $$\ln xy = \ln x + \ln y $$
-$$xy = \exp(\log xy) = \exp(\log x + \log y)$$
-
+$$xy = \exp(\log xy) = \exp(\log x + \log y)$$\\
+\hfill \newline
 Zur Berechnung großer Produkte:
-Berechne den Logarithmus; addiere das Ergebnis; nimm $\exp$ des Ergebnisses.
-
+\begin{itemize}
+    \item[--] Berechne den Logarithmus
+    \item[--] addiere das Ergebnis
+    \item[--] nimm $\exp$ des Ergebnisses
+\end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -170,20 +172,13 @@ L(x_1, \dots, x_n|\mu, \Sigma) &= \prod_{i = 1}^{n} L(x_i|\mu, \Sigma)\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}
-\frametitle{Mittel}
-Wir bestimmen eine bijektive Abbildung aus der Menge aller reellwertigen Zufallsvariablen in einen andere Menge.
-
-Dann zeigen wir, dass wir anstelle mit den Zufallsvariablen zu rechnen, auch viel einfacher mit ihrem "Partner" rechnen können.
-\end{frame}
-
-\begin{frame}
 \frametitle{Definition}
 Für eine Zufallsvariable X mit Werten in $\R$ bezeichnet
-\begin{align} \label{eq1}
-\varphi^X(u) &= \E[e^{iuX}] \\
- & = \int_{\R} e^{iux} \dint P^X(x)\\
- & = \int_{\R} \cos(ux) \dint P^X(x) + i \int_{\R} \sin(ux) \dint P^X(x)
-\end{align}
+\begin{align*} \label{eq1}
+\varphi^X(u) &= \E[e^{iuX}] \only<2->{\\
+  & = \int_{\R} e^{iux} \dint P^X(x)} \only<3>{\\
+ & = \int_{\R} \cos(ux) \dint P^X(x) + i \int_{\R} \sin(ux) \dint P^X(x)}
+\end{align*}
 
 ihre charakteristische Funktion.
 
@@ -250,12 +245,6 @@ $\varphi$ sollte besonders "einfach" sein
 \end{frame}
 
 \begin{frame}
-\frametitle{Faltung - CF}
-  Seien $X, Y$ unabhängige reellwertige ZV mit charakteristischen Funktionen $\varphi^X, \varphi^Y$. Dann besitzt $X + Y$ die charakteristische Funktion
-$$\varphi^{X+Y} = \varphi^X \varphi^Y$$
-\end{frame}
-
-\begin{frame}
 \frametitle{Faltung - Beispiel}
 Seien $X \sim Gamma(\lambda, p_1)$ und $Y \sim Gamma(\lambda, p_1)$ unabhängig. Die Dichte der Gamma-Funktion ist
 
@@ -268,8 +257,14 @@ $$f^{X+Y}(z) = \int_\R \frac{\lambda^{p_1}}{\Gamma(p_1)} (z-y)^{p_1-1} e^{-\lamb
 \end{frame}
 
 \begin{frame}
+\frametitle{Faltung - CF}
+  Seien $X, Y$ unabhängige reellwertige ZV mit charakteristischen Funktionen $\varphi^X, \varphi^Y$. Dann besitzt $X + Y$ die charakteristische Funktion
+$$\varphi^{X+Y} = \varphi^X \varphi^Y$$
+\end{frame}
+
+\begin{frame}
 \frametitle{Faltung - Beispiel}
-Seien $X \sim Gamma(\lambda, p_1)$ und $Y \sim Gamma(\lambda, p_1)$ unabhängig. Die characteristische Funktion ist
+Seien $X \sim Gamma(\lambda, p_1)$ und $Y \sim Gamma(\lambda, p_1)$ unabhängig. Die charakteristische Funktion ist
 
 $$\varphi^{Gamma(\lambda, p)}(u) = \Bigg(1-\frac{u}{\lambda}\Bigg)^{-p}$$
 
@@ -329,15 +324,9 @@ $$\varphi^{Bin(n, p_n)}(u) = (1 + p_n(e^{iu} - 1))^n$$
 
 Wir erhalten also
 {\footnotesize
-$$\varphi^{Bin(n, p_n)}(u) = (1 + p_n(e^{iu} - 1))^n = \Bigg(1 + \frac{np_n(e^{iu} - 1)}{n}\Bigg)^n \to e^{\lambda(e^{iu}-1)} = \varphi^{Poiss(\lambda)}$$
+$$\varphi^{Bin(n, p_n)}(u) = (1 + p_n(e^{iu} - 1))^n = \Bigg(1 + \frac{\textcolor{red}{np_n(e^{iu} - 1)}}{n}\Bigg)^n \to e^{\textcolor{red}{\lambda(e^{iu}-1)}} = \varphi^{Poiss(\lambda)}$$
 }%
 \end{frame}
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{Referenzen}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \begin{frame}

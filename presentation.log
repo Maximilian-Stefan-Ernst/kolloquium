@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.9)  12 JUN 2021 14:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.9)  12 JUN 2021 15:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1085,6 +1085,18 @@ flibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \arrowsize=\dimen297
 ))
+(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlaye
+r/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pg
+flibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowinset=\dimen298
+\pgfarrowlength=\dimen299
+\pgfarrowwidth=\dimen300
+\pgfarrowlinewidth=\dimen301
+)
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/jknapltx/mathrsfs.
 sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
@@ -1261,17 +1273,17 @@ tex.map}
 ] (./presentation.toc) [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 80.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 79.
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 80.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 79.
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 80
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 79
 .
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -1282,55 +1294,65 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ] [5
 
 ]
+\openout4 = `presentation.vrb'.
+
+(./presentation.vrb
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 102.
+(amsmath)                 on input line 11.
 
-
-Overfull \vbox (7.94571pt too high) detected at line 102
+)
+Overfull \vbox (7.94571pt too high) detected at line 101
  []
 
 [6
 
-]
-Overfull \vbox (7.94571pt too high) detected at line 102
+] (./presentation.vrb)
+Overfull \vbox (7.94571pt too high) detected at line 101
  []
 
 [7
 
-]
-Overfull \vbox (7.94571pt too high) detected at line 102
+] (./presentation.vrb)
+Overfull \vbox (7.94571pt too high) detected at line 101
  []
 
 [8
 
-]
-Overfull \vbox (7.94571pt too high) detected at line 102
+] (./presentation.vrb)
+Overfull \vbox (7.94571pt too high) detected at line 101
  []
 
 [9
 
-]
-Overfull \vbox (7.94571pt too high) detected at line 102
+] (./presentation.vrb)
+Overfull \vbox (7.94571pt too high) detected at line 101
  []
 
 [10
 
-]
-Overfull \vbox (7.94571pt too high) detected at line 102
+] (./presentation.vrb)
+Overfull \vbox (7.94571pt too high) detected at line 101
  []
 
 [11
 
-]
-Overfull \vbox (7.94571pt too high) detected at line 102
+] (./presentation.vrb)
+Overfull \vbox (7.94571pt too high) detected at line 101
  []
 
 [12
 
-]
-Overfull \vbox (7.94571pt too high) detected at line 102
+] (./presentation.vrb
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 11.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 11.
+
+)
+Overfull \vbox (5.3418pt too high) detected at line 101
  []
 
 [13
@@ -1346,7 +1368,7 @@ Overfull \vbox (7.94571pt too high) detected at line 102
 ] [18
 
 ]
-Overfull \hbox (11.7248pt too wide) detected at line 166
+Overfull \hbox (11.7248pt too wide) detected at line 168
 []
  []
 
@@ -1358,55 +1380,55 @@ Overfull \hbox (11.7248pt too wide) detected at line 166
 
 ] [22
 
+] [23
+
 ]
-<presentation/plots/normal_char.pdf, id=931, 433.62pt x 276.03125pt>
+<presentation/plots/normal_char.pdf, id=916, 433.62pt x 276.03125pt>
 File: presentation/plots/normal_char.pdf Graphic file (type pdf)
 <use presentation/plots/normal_char.pdf>
 Package pdftex.def Info: presentation/plots/normal_char.pdf  used on input line
- 212.
+ 207.
 (pdftex.def)             Requested size: 307.30333pt x 195.62132pt.
-[23
+[24
 
- <./presentation/plots/normal_char.pdf>] [24
+ <./presentation/plots/normal_char.pdf>] [25
 
 ]
-<presentation/plots/cantor.pdf, id=1018, 433.62pt x 282.05376pt>
+<presentation/plots/cantor.pdf, id=1001, 433.62pt x 282.05376pt>
 File: presentation/plots/cantor.pdf Graphic file (type pdf)
 <use presentation/plots/cantor.pdf>
-Package pdftex.def Info: presentation/plots/cantor.pdf  used on input line 229.
+Package pdftex.def Info: presentation/plots/cantor.pdf  used on input line 224.
 
 (pdftex.def)             Requested size: 307.30333pt x 199.88943pt.
 
-Overfull \vbox (1.07848pt too high) detected at line 229
+Overfull \vbox (1.07848pt too high) detected at line 224
  []
 
-[25
+[26
 
  <./presentation/plots/cantor.pdf>]
-<presentation/plots/cantor_re.pdf, id=1072, 433.62pt x 101.37875pt>
+<presentation/plots/cantor_re.pdf, id=1052, 433.62pt x 101.37875pt>
 File: presentation/plots/cantor_re.pdf Graphic file (type pdf)
 <use presentation/plots/cantor_re.pdf>
 Package pdftex.def Info: presentation/plots/cantor_re.pdf  used on input line 2
-35.
+30.
 (pdftex.def)             Requested size: 307.30333pt x 71.84637pt.
-<presentation/plots/cantor_im.pdf, id=1073, 433.62pt x 102.3825pt>
+<presentation/plots/cantor_im.pdf, id=1053, 433.62pt x 102.3825pt>
 File: presentation/plots/cantor_im.pdf Graphic file (type pdf)
 <use presentation/plots/cantor_im.pdf>
 Package pdftex.def Info: presentation/plots/cantor_im.pdf  used on input line 2
-35.
+30.
 (pdftex.def)             Requested size: 307.30333pt x 72.55772pt.
-[26
+[27
 
  <./presentation/plots/cantor_re.pdf> <./presentation/plots/cantor_im.pdf
 
 pdfTeX warning: pdflatex.exe (file ./presentation/plots/cantor_im.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
->] [27
-
-] [28
+>] [28
 
 ]
-Overfull \hbox (13.08965pt too wide) detected at line 268
+Overfull \hbox (13.08965pt too wide) detected at line 257
 \OML/cmm/m/it/8 f[]\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 z\OT1/cmr/m/n/8 ) = [][] [](
 \OML/cmm/m/it/8 z \OMS/cmsy/m/n/8 ^^@ \OML/cmm/m/it/8 y\OT1/cmr/m/n/8 )[]\OML/c
 mm/m/it/8 e[]\OT1/cmr/bx/n/8 1[]\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 z \OMS/cmsy/m/n
@@ -1417,8 +1439,10 @@ m/n/8 )d\OML/cmm/m/it/8 y
 
 [29
 
+] [30
+
 ]
-Overfull \hbox (20.33806pt too wide) detected at line 280
+Overfull \hbox (20.33806pt too wide) detected at line 275
 \OML/cmm/m/it/6 '[]\OT1/cmr/m/n/6 (\OML/cmm/m/it/6 u\OT1/cmr/m/n/6 ) = \OML/cmm
 /m/it/6 '[]\OT1/cmr/m/n/6 (\OML/cmm/m/it/6 u\OT1/cmr/m/n/6 )\OML/cmm/m/it/6 '[]
 \OT1/cmr/m/n/6 (\OML/cmm/m/it/6 u\OT1/cmr/m/n/6 ) = []1 \OMS/cmsy/m/n/6 ^^@ [][
@@ -1427,9 +1451,7 @@ Overfull \hbox (20.33806pt too wide) detected at line 280
 m/it/6 u\OT1/cmr/m/n/6 )
  []
 
-[30
-
-] [31
+[31
 
 ] [32
 
@@ -1437,24 +1459,26 @@ m/it/6 u\OT1/cmr/m/n/6 )
 
 ] [34
 
+] [35
+
 ]
-LaTeX Font Info:    Trying to load font information for U+euf on input line 322
+LaTeX Font Info:    Trying to load font information for U+euf on input line 317
 .
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [35
+) [36
 
 ]
-Overfull \hbox (17.99826pt too wide) detected at line 334
+Overfull \hbox (17.99826pt too wide) detected at line 329
 \OML/cmm/m/it/9 '[]\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 u\OT1/cmr/m/n/9 ) = (1 + \OM
 L/cmm/m/it/9 p[]\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 e[] \OMS/cmsy/m/n/9 ^^@ \OT1/cm
 r/m/n/9 1))[] = []1 + [][][] \OMS/cmsy/m/n/9 ! \OML/cmm/m/it/9 e[] \OT1/cmr/m/n
 /9 = \OML/cmm/m/it/9 '[]
  []
 
-[36
+[37
 
-] [37
+] [38
 
 ]
 \tf@nav=\write7
@@ -1468,19 +1492,19 @@ r/m/n/9 1))[] = []1 + [][][] \OMS/cmsy/m/n/9 ! \OML/cmm/m/it/9 e[] \OT1/cmr/m/n
 
 (./presentation.aux)
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 2DFC8978AC6F7CD71BF2E604DBAED44F;460.
+(rerunfilecheck)             Checksum: 4F6982573F81ED874E6AC4BB10198853;367.
 Package logreq Info: Writing requests to 'presentation.run.xml'.
 \openout1 = `presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31528 strings out of 480496
- 627902 string characters out of 5897906
- 1336169 words of memory out of 5000000
- 48549 multiletter control sequences out of 15000+600000
+ 31888 strings out of 480496
+ 637826 string characters out of 5897906
+ 1348380 words of memory out of 5000000
+ 48884 multiletter control sequences out of 15000+600000
  419380 words of font info for 91 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 101i,19n,108p,758b,1273s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,19n,108p,758b,1276s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmbx8.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist
@@ -1517,10 +1541,10 @@ Data/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb><c
 :/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/sy
 mbols/msbm10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1
 /public/amsfonts/symbols/msbm7.pfb>
-Output written on presentation.pdf (37 pages, 464909 bytes).
+Output written on presentation.pdf (38 pages, 465671 bytes).
 PDF statistics:
- 1696 PDF objects out of 1728 (max. 8388607)
- 1523 compressed objects within 16 object streams
- 83 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1650 PDF objects out of 1728 (max. 8388607)
+ 1479 compressed objects within 15 object streams
+ 84 named destinations out of 1000 (max. 500000)
+ 95 words of extra memory for PDF output out of 10000 (max. 10000000)
 
