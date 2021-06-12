@@ -22,10 +22,13 @@
 
 \usepackage{xurl}
 \usepackage{amsmath,amsfonts}
+\usepackage[backend=biber]{biblatex}
+\addbibresource{presentation/bibliography.bib}
 \usepackage{tikz}
 \usetikzlibrary{shapes.geometric, arrows}
 \usepackage{mathrsfs}
 \usefonttheme[onlymath]{serif}
+\usepackage{graphicx}
 
 \newcommand{\R}{\mathbb{R}}
 \newcommand{\E}{\mathbb{E}}
@@ -60,7 +63,7 @@ Wie viele Schadensmeldungen erhält eine Versicherung in einem Zeitintervall $(0
     \item[--] n groß $\to$ Teilintervalle kurz $\to$ Annahme, dass nur ein Schaden auftritt
     \item[--] in einem Intervall kann also ein Schaden auftreten oder kein Schaden (mit Wahrscheinlichkeit $p$)
     \item[--] $p = \alpha \frac{t}{n}$
-    \item[--] Die einzelnen Teilintervalle sind unabhängig.
+    \item[--] Die einzelnen Teilintervalle sind unabhängig
 \end{itemize}
 \end{frame}
 
@@ -88,12 +91,12 @@ $$\lim_{n \to \infty} Bin_{n, p_n}(k) = Poiss_\lambda (k)$$
 \frametitle{Versicherungen}
 {\footnotesize
   \begin{align*}
-  {n \choose k} p_n^k(1-p_n)^k &= \frac{n!}{k!(n-k)!} p_n^k(1-p_n)^k\\
-  &= \frac{n^k}{k!} \frac{n!}{n^k(n-k)!} p_n^k(1-p_n)^k\\
-  &\sim \frac{n^k}{k!} p_n^k(1-p_n)^k\\
-  &= \frac{(np_n)^k}{k!}(1-p_n)^k\\
-  &= \frac{(np_n)^k}{k!}(1-\frac{np_n}{n})^k\\
-  &\sim \frac{\lambda^k}{k!}(1-\frac{\lambda}{n})^k\\
+  {n \choose k} p_n^k(1-p_n)^k &= \frac{n!}{k!(n-k)!} p_n^k(1-p_n)^{n-k}\\
+  &= \frac{n^k}{k!} \frac{n!}{n^k(n-k)!} p_n^k(1-p_n)^{n-k}\\
+  &\sim \frac{n^k}{k!} p_n^k(1-p_n)^n\\
+  &= \frac{(np_n)^k}{k!}(1-p_n)^n\\
+  &= \frac{(np_n)^k}{k!}(1-\frac{np_n}{n})^n\\
+  &\sim \frac{\lambda^k}{k!}(1-\frac{\lambda}{n})^n\\
   &\to \frac{\lambda^k}{k!}e^{-\lambda}\\
   \end{align*}
 }%
@@ -137,6 +140,7 @@ Die Relation $>$ für den Flächeninhalt bleibt erhalten. Wollen wir also wissen
 \frametitle{Beispiel 2 - Berechnung von Produkten}
 
 $$\ln xy = \ln x + \ln y $$
+$$xy = \exp(\log xy) = \exp(\log x + \log y)$$
 
 Zur Berechnung großer Produkte:
 Berechne den Logarithmus; addiere das Ergebnis; nimm $\exp$ des Ergebnisses.
@@ -186,6 +190,28 @@ ihre charakteristische Funktion.
 \end{frame}
 
 \begin{frame}
+\frametitle{Beispiel 1 - Normalverteilung}
+Sei $X \sim N(0,1)$. Dann ist die Dichte
+{\footnotesize
+$$ f_X(x) = \frac{1}{\sqrt{2 \pi}} e^{-\frac{x^2}{2}} $$
+}%
+Also ist
+{\footnotesize
+\begin{align*}
+\varphi_X(u) &= \E[e^{iuX}]\\
+&= \int_\R e^{iux}f_X(x) \dint x\\
+&= \int_\R e^{iux} \frac{1}{\sqrt{2 \pi}} e^{-\frac{x^2}{2}}\\
+&= e^{-\frac{u^2}{2}}
+\end{align*}
+}%
+\end{frame}
+
+\begin{frame}
+\frametitle{Beispiel 1 - Normalverteilung}
+\includegraphics[width=\linewidth, height=\textheight,keepaspectratio]{presentation/plots/normal_char.pdf}
+\end{frame}
+
+\begin{frame}
 \frametitle{Eigenschaften}
 $\varphi$ sollte besonders "einfach" sein
 \hfill \newline
@@ -198,7 +224,14 @@ $\varphi$ sollte besonders "einfach" sein
 \end{frame}
 
 \begin{frame}
-\frametitle{Berechnungsbeispiel + zeigen, dass die Funktion einfach ist}
+\frametitle{Beispiel 2 - $\varphi$ ist "einfach"}
+\includegraphics[width=\linewidth, height=\textheight,keepaspectratio]{presentation/plots/cantor.pdf}
+\end{frame}
+
+\begin{frame}
+\frametitle{Beispiel 2 - $\varphi$ ist "einfach"}
+\includegraphics[width=\linewidth, height=.4\textheight,keepaspectratio]{presentation/plots/cantor_re.pdf}
+\includegraphics[width=\linewidth, height=.4\textheight,keepaspectratio]{presentation/plots/cantor_im.pdf}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -224,7 +257,26 @@ $$\varphi^{X+Y} = \varphi^X \varphi^Y$$
 
 \begin{frame}
 \frametitle{Faltung - Beispiel}
+Seien $X \sim Gamma(\lambda, p_1)$ und $Y \sim Gamma(\lambda, p_1)$ unabhängig. Die Dichte der Gamma-Funktion ist
 
+$$f_{\lambda, p}(x) = \frac{\lambda^p}{\Gamma(p)} x^{p-1} e^{-\lambda x} \mathbf{1}_{(0, \infty)} (x)$$
+
+Es ergibt sich also für die Faltung
+{\scriptsize
+$$f^{X+Y}(z) = \int_\R \frac{\lambda^{p_1}}{\Gamma(p_1)} (z-y)^{p_1-1} e^{-\lambda (z-y)} \mathbf{1}_{(0, \infty)} (z-y) \frac{\lambda^{p_2}}{\Gamma(p_2)} (y)^{p_2-1} e^{-\lambda (y)} \mathbf{1}_{(0, \infty)} (y) \dint y$$
+}%
+\end{frame}
+
+\begin{frame}
+\frametitle{Faltung - Beispiel}
+Seien $X \sim Gamma(\lambda, p_1)$ und $Y \sim Gamma(\lambda, p_1)$ unabhängig. Die characteristische Funktion ist
+
+$$\varphi^{Gamma(\lambda, p)}(u) = \Bigg(1-\frac{u}{\lambda}\Bigg)^{-p}$$
+
+Es ergibt sich also für die Faltung
+{\tiny
+$$\varphi^{X+Y}(u) = \varphi^{X}(u)\varphi^{Y}(u) = \Bigg(1-\frac{u}{\lambda}\Bigg)^{-p_1} \Bigg(1-\frac{u}{\lambda}\Bigg)^{-p_2} = \Bigg(1-\frac{u}{\lambda}\Bigg)^{-(p_1+p_2)} = \varphi^{Gamma(\lambda, p_1 + p_2)}(u)$$
+}%
 \end{frame}
 
 \begin{frame}
@@ -238,6 +290,29 @@ Besitzt die ZV $X \; p$ endliche Momente, ist $\varphi^X \; p$-mal stetig differ
 
 \begin{frame}
 \frametitle{Momente - Beispiel}
+Sei $X \sim N(\mu, \sigma^2)$. Gesucht: $\E[X]$.
+
+Es ist
+
+$$\E[X] = \frac{\varphi_X^{(1)}(0)}{i}$$
+\end{frame}
+
+\begin{frame}
+\frametitle{Momente - Beispiel}
+Wir berechnen
+
+$$\frac{\dint}{\dint u} \varphi_X = \frac{\dint}{\dint u} \exp(i \mu u - \frac{1}{2} \sigma^2 u^2) = \exp(i \mu u - \frac{1}{2} \sigma^2 u^2) (i \mu - \sigma^2 u)$$
+
+Ausgewertet an der Stelle 0
+
+$$\varphi_X^{(1)}(0) = \exp(0 - 0) (i \mu - 0) = 1 \cdot i \mu$$
+\end{frame}
+
+\begin{frame}
+\frametitle{Momente - Beispiel}
+Eingesetzt in unsere Formel
+
+$$\E[X] = \frac{\varphi_X^{(1)}(0)}{i} = \frac{i \mu}{i} = \mu$$
 \end{frame}
 
 \begin{frame}
@@ -248,20 +323,26 @@ Seien $P_n$ Wahrscheinlichkeitsmaße auf $(\R, \mathfrak{B}_\R)$ mit charakteris
 
 \begin{frame}
 \frametitle{Konvergenz in Verteilung - Beispiel}
-Poissonscher Grenzwertsatz oder ZGWS
+Wir haben eine Folge von Wahrscheinlichkeitsmaßen $Bin(n, p_n)$ mit $np_n \to \lambda$. Es gilt:
+
+$$\varphi^{Bin(n, p_n)}(u) = (1 + p_n(e^{iu} - 1))^n$$
+
+Wir erhalten also
+{\footnotesize
+$$\varphi^{Bin(n, p_n)}(u) = (1 + p_n(e^{iu} - 1))^n = \Bigg(1 + \frac{np_n(e^{iu} - 1)}{n}\Bigg)^n \to e^{\lambda(e^{iu}-1)} = \varphi^{Poiss(\lambda)}$$
+}%
 \end{frame}
 
-\begin{frame}
-\frametitle{}
-\end{frame}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Referenzen}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\frame{
-\frametitle{Links}
 
-}
+\begin{frame}
+\frametitle{Referenzen}
+\nocite{*}
+\printbibliography
+\end{frame}
 \end{document}

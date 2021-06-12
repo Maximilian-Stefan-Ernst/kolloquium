@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.3)  9 JUN 2021 21:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.9)  9 JUN 2021 23:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**presentation.tex
-(./presentation.tex
+**presentation/presentation.tex
+(./presentation/presentation.tex
 LaTeX2e <2021-06-01>
-L3 programming layer <2021-06-01>
-(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamer.cls
+L3 programming layer <2021-06-01> (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf
+-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2021/05/26 v3.63 A class for typesetting presentations
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasem
@@ -28,10 +28,9 @@ ecode.sty
 )
 \beamer@commentbox=\box52
 \beamer@modecount=\count187
-)
-(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifpdf.sty
+) (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifpdf.st
+y
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
@@ -120,7 +119,6 @@ Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphics.
 sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
-
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
@@ -216,8 +214,8 @@ File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
 pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))
-(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+)) (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.s
+ty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color
@@ -390,7 +388,7 @@ package with kernel methods
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.
 sty
-Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.
 sty
@@ -443,13 +441,13 @@ Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.de
 f
-File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref-
 langpatches.def
-File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
 nguages
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.
@@ -463,7 +461,7 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 \Hy@SavedSpaceFactor=\count293
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
@@ -478,7 +476,7 @@ Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
 Package hyperref Info: Bookmarks ON on input line 4445.
 \c@Hy@tempcnt=\count294
- (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
+(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -497,17 +495,16 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 \Fld@menulength=\count295
 \Field@Width=\dimen259
 \Fld@charsize=\dimen260
-Package hyperref Info: Hyper figures OFF on input line 6075.
-Package hyperref Info: Link nesting OFF on input line 6080.
-Package hyperref Info: Hyper index ON on input line 6083.
-Package hyperref Info: backreferencing OFF on input line 6090.
-Package hyperref Info: Link coloring OFF on input line 6095.
-Package hyperref Info: Link coloring with OCG OFF on input line 6100.
-Package hyperref Info: PDF/A mode OFF on input line 6105.
-LaTeX Info: Redefining \ref on input line 6145.
-LaTeX Info: Redefining \pageref on input line 6149.
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
 \Hy@abspage=\count296
-
 
 Package hyperref Message: Stopped early.
 
@@ -516,7 +513,7 @@ Package hyperref Info: Driver (autodetected): hpdftex.
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.d
 ef
-File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx
 .sty
@@ -668,7 +665,6 @@ heorems.sty
 y
 Package: amsmath 2021/04/20 v2.17j AMS math features
 \@mathmargin=\skip58
-
 For additional information on amsmath, use the `?' option.
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.st
@@ -724,8 +720,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks38
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
-)
-(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amscls/amsthm.sty
+) (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amscls/amsthm.st
+y
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks39
 \thm@bodyfont=\toks40
@@ -757,10 +753,235 @@ themedefault.sty)))
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamertheme
 Szeged.sty
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerouter
-thememiniframes.sty))
-(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xurl/xurl.sty
+thememiniframes.sty)) (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/la
+tex/xurl/xurl.sty
 Package: xurl 2020/12/30 v 0.09a modify URL breaks
 )
+(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.
+sty
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count326
+(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count327
+\c@listtotal=\count328
+\c@listcount=\count329
+\c@liststart=\count330
+\c@liststop=\count331
+\c@citecount=\count332
+\c@citetotal=\count333
+\c@multicitecount=\count334
+\c@multicitetotal=\count335
+\c@instcount=\count336
+\c@maxnames=\count337
+\c@minnames=\count338
+\c@maxitems=\count339
+\c@minitems=\count340
+\c@citecounter=\count341
+\c@maxcitecounter=\count342
+\c@savedcitecounter=\count343
+\c@uniquelist=\count344
+\c@uniquename=\count345
+\c@refsection=\count346
+\c@refsegment=\count347
+\c@maxextratitle=\count348
+\c@maxextratitleyear=\count349
+\c@maxextraname=\count350
+\c@maxextradate=\count351
+\c@maxextraalpha=\count352
+\c@abbrvpenalty=\count353
+\c@highnamepenalty=\count354
+\c@lownamepenalty=\count355
+\c@maxparens=\count356
+\c@parenlevel=\count357
+\blx@tempcnta=\count358
+\blx@tempcntb=\count359
+\blx@tempcntc=\count360
+\blx@maxsection=\count361
+\blx@maxsegment@0=\count362
+\blx@notetype=\count363
+\blx@parenlevel@text=\count364
+\blx@parenlevel@foot=\count365
+\blx@sectionciteorder@0=\count366
+\blx@entrysetcounter=\count367
+\blx@biblioinstance=\count368
+\labelnumberwidth=\skip64
+\labelalphawidth=\skip65
+\biblabelsep=\skip66
+\bibitemsep=\skip67
+\bibnamesep=\skip68
+\bibinitsep=\skip69
+\bibparsep=\skip70
+\bibhang=\skip71
+\blx@bcfin=\read3
+\blx@bcfout=\write5
+\blx@langwohyphens=\language3
+\c@mincomprange=\count369
+\c@maxcomprange=\count370
+\c@mincompwidth=\count371
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/blx-dm.de
+f
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count372
+\c@savedafterword=\count373
+\c@annotator=\count374
+\c@savedannotator=\count375
+\c@author=\count376
+\c@savedauthor=\count377
+\c@bookauthor=\count378
+\c@savedbookauthor=\count379
+\c@commentator=\count380
+\c@savedcommentator=\count381
+\c@editor=\count382
+\c@savededitor=\count383
+\c@editora=\count384
+\c@savededitora=\count385
+\c@editorb=\count386
+\c@savededitorb=\count387
+\c@editorc=\count388
+\c@savededitorc=\count389
+\c@foreword=\count390
+\c@savedforeword=\count391
+\c@holder=\count392
+\c@savedholder=\count393
+\c@introduction=\count394
+\c@savedintroduction=\count395
+\c@namea=\count396
+\c@savednamea=\count397
+\c@nameb=\count398
+\c@savednameb=\count399
+\c@namec=\count400
+\c@savednamec=\count401
+\c@translator=\count402
+\c@savedtranslator=\count403
+\c@shortauthor=\count404
+\c@savedshortauthor=\count405
+\c@shorteditor=\count406
+\c@savedshorteditor=\count407
+\c@labelname=\count408
+\c@savedlabelname=\count409
+\c@institution=\count410
+\c@savedinstitution=\count411
+\c@lista=\count412
+\c@savedlista=\count413
+\c@listb=\count414
+\c@savedlistb=\count415
+\c@listc=\count416
+\c@savedlistc=\count417
+\c@listd=\count418
+\c@savedlistd=\count419
+\c@liste=\count420
+\c@savedliste=\count421
+\c@listf=\count422
+\c@savedlistf=\count423
+\c@location=\count424
+\c@savedlocation=\count425
+\c@organization=\count426
+\c@savedorganization=\count427
+\c@origlocation=\count428
+\c@savedoriglocation=\count429
+\c@origpublisher=\count430
+\c@savedorigpublisher=\count431
+\c@publisher=\count432
+\c@savedpublisher=\count433
+\c@language=\count434
+\c@savedlanguage=\count435
+\c@origlanguage=\count436
+\c@savedoriglanguage=\count437
+\c@pageref=\count438
+\c@savedpageref=\count439
+\shorthandwidth=\skip72
+\shortjournalwidth=\skip73
+\shortserieswidth=\skip74
+\shorttitlewidth=\skip75
+\shortauthorwidth=\skip76
+\shorteditorwidth=\skip77
+\locallabelnumberwidth=\skip78
+\locallabelalphawidth=\skip79
+\localshorthandwidth=\skip80
+\localshortjournalwidth=\skip81
+\localshortserieswidth=\skip82
+\localshorttitlewidth=\skip83
+\localshortauthorwidth=\skip84
+\localshorteditorwidth=\skip85
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/blx-compa
+t.def
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.
+def
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count440
+\c@textcitetotal=\count441
+\c@textcitemaxnames=\count442
+\c@biburlbigbreakpenalty=\count443
+\c@biburlbreakpenalty=\count444
+\c@biburlnumpenalty=\count445
+\c@biburlucpenalty=\count446
+\c@biburllcpenalty=\count447
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count448
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/numer
+ic.bbx
+File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/stand
+ard.bbx
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count449
+\c@bbx:relatedtotal=\count450
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/cbx/numer
+ic.cbx
+File: numeric.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.
+cfg
+File: biblatex.cfg 
+))
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer/
 tikz.sty
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf
@@ -814,7 +1035,7 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pg
 flibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count326
+\pgf@plot@mark@count=\count451
 \pgfplotmarksize=\dimen288
 )
 \tikz@lastx=\dimen289
@@ -829,19 +1050,19 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@figbox@bg=\box77
 \tikz@tempbox=\box78
 \tikz@tempbox@bg=\box79
-\tikztreelevel=\count327
-\tikznumberofchildren=\count328
-\tikznumberofcurrentchild=\count329
-\tikz@fig@count=\count330
+\tikztreelevel=\count452
+\tikznumberofchildren=\count453
+\tikznumberofcurrentchild=\count454
+\tikz@fig@count=\count455
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfm
 odulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count331
-\pgfmatrixcurrentcolumn=\count332
-\pgf@matrix@numberofcolumns=\count333
+\pgfmatrixcurrentrow=\count456
+\pgfmatrixcurrentcolumn=\count457
+\pgf@matrix@numberofcolumns=\count458
 )
-\tikz@expandcount=\count334
+\tikz@expandcount=\count459
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlaye
 r/tikz/libraries/tikzlibrarytopaths.code.tex
@@ -871,33 +1092,35 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 )
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerfontt
 hemeserif.sty)
+\@quotelevel=\count460
+\@quotereset=\count461
+
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count335
+\l__color_backend_stack_int=\count462
 \l__pdf_internal_box=\box80
 ) (./presentation.aux)
 \openout1 = `presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -944,7 +1167,7 @@ df-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 38.
+Package hyperref Info: Link coloring OFF on input line 40.
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.s
 ty
@@ -958,14 +1181,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count336
+\c@section@level=\count463
 )
-LaTeX Info: Redefining \ref on input line 38.
-LaTeX Info: Redefining \pageref on input line 38.
-LaTeX Info: Redefining \nameref on input line 38.
- (./presentation.out) (./presentation.out)
-\@outlinefile=\write5
-\openout5 = `presentation.out'.
+LaTeX Info: Redefining \ref on input line 40.
+LaTeX Info: Redefining \pageref on input line 40.
+LaTeX Info: Redefining \nameref on input line 40.
+(./presentation.out) (./presentation.out)
+\@outlinefile=\write6
+\openout6 = `presentation.out'.
 
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/translator/transla
@@ -991,10 +1214,46 @@ Dictionary: translator-numbers-dictionary, Language: English
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/translator/transla
 tor-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./presentation.nav)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/engli
+sh.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+
+(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-06-01 L3 programming layer (loader) 
+)
+Package biblatex Info: ... and expl3
+(biblatex)             2021-06-01 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/blx-case-
+expl3.sty
+(c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/
+xparse.sty
+Package: xparse 2021-06-01 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout5 = `presentation.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'presentation.bbl' found.
+(./presentation.bbl)
+Package biblatex Info: Reference section=0 on input line 40.
+Package biblatex Info: Reference segment=0 on input line 40.
+(./presentation.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 42.
+(hyperref)                setting the option has no effect on input line 44.
 
 [1{c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdf
 tex.map}
@@ -1002,21 +1261,18 @@ tex.map}
 ] (./presentation.toc) [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 66.
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 66.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 66
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 68
 .
-
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [3
@@ -1029,10 +1285,10 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 101.
+(amsmath)                 on input line 103.
 
 
-Overfull \vbox (7.94571pt too high) detected at line 101
+Overfull \vbox (7.94571pt too high) detected at line 103
  []
 
 [6
@@ -1048,7 +1304,7 @@ Overfull \vbox (7.94571pt too high) detected at line 101
 ] [11
 
 ]
-Overfull \hbox (11.7248pt too wide) detected at line 164
+Overfull \hbox (11.7248pt too wide) detected at line 166
 []
  []
 
@@ -1061,50 +1317,54 @@ Overfull \hbox (11.7248pt too wide) detected at line 164
 ] [15
 
 ]
-<plots/normal_char.pdf, id=660, 433.62pt x 276.03125pt>
-File: plots/normal_char.pdf Graphic file (type pdf)
-<use plots/normal_char.pdf>
-Package pdftex.def Info: plots/normal_char.pdf  used on input line 210.
+<presentation/plots/normal_char.pdf, id=684, 433.62pt x 276.03125pt>
+File: presentation/plots/normal_char.pdf Graphic file (type pdf)
+<use presentation/plots/normal_char.pdf>
+Package pdftex.def Info: presentation/plots/normal_char.pdf  used on input line
+ 212.
 (pdftex.def)             Requested size: 307.30333pt x 195.62132pt.
- [16
+[16
 
- <./plots/normal_char.pdf>] [17
+ <./presentation/plots/normal_char.pdf>] [17
 
 ]
-<plots/cantor.pdf, id=748, 433.62pt x 282.05376pt>
-File: plots/cantor.pdf Graphic file (type pdf)
-<use plots/cantor.pdf>
-Package pdftex.def Info: plots/cantor.pdf  used on input line 227.
+<presentation/plots/cantor.pdf, id=774, 433.62pt x 282.05376pt>
+File: presentation/plots/cantor.pdf Graphic file (type pdf)
+<use presentation/plots/cantor.pdf>
+Package pdftex.def Info: presentation/plots/cantor.pdf  used on input line 229.
+
 (pdftex.def)             Requested size: 307.30333pt x 199.88943pt.
 
-Overfull \vbox (1.07848pt too high) detected at line 227
+Overfull \vbox (1.07848pt too high) detected at line 229
  []
 
 [18
 
- <./plots/cantor.pdf>]
-<plots/cantor_re.pdf, id=800, 433.62pt x 101.37875pt>
-File: plots/cantor_re.pdf Graphic file (type pdf)
-<use plots/cantor_re.pdf>
-Package pdftex.def Info: plots/cantor_re.pdf  used on input line 233.
+ <./presentation/plots/cantor.pdf>]
+<presentation/plots/cantor_re.pdf, id=828, 433.62pt x 101.37875pt>
+File: presentation/plots/cantor_re.pdf Graphic file (type pdf)
+<use presentation/plots/cantor_re.pdf>
+Package pdftex.def Info: presentation/plots/cantor_re.pdf  used on input line 2
+35.
 (pdftex.def)             Requested size: 307.30333pt x 71.84637pt.
-<plots/cantor_im.pdf, id=801, 433.62pt x 102.3825pt>
-File: plots/cantor_im.pdf Graphic file (type pdf)
-<use plots/cantor_im.pdf>
-Package pdftex.def Info: plots/cantor_im.pdf  used on input line 233.
+<presentation/plots/cantor_im.pdf, id=829, 433.62pt x 102.3825pt>
+File: presentation/plots/cantor_im.pdf Graphic file (type pdf)
+<use presentation/plots/cantor_im.pdf>
+Package pdftex.def Info: presentation/plots/cantor_im.pdf  used on input line 2
+35.
 (pdftex.def)             Requested size: 307.30333pt x 72.55772pt.
- [19
+[19
 
- <./plots/cantor_re.pdf> <./plots/cantor_im.pdf
+ <./presentation/plots/cantor_re.pdf> <./presentation/plots/cantor_im.pdf
 
-pdfTeX warning: pdflatex.exe (file ./plots/cantor_im.pdf): PDF inclusion: multi
-ple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./presentation/plots/cantor_im.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
 >] [20
 
 ] [21
 
 ]
-Overfull \hbox (13.08965pt too wide) detected at line 266
+Overfull \hbox (13.08965pt too wide) detected at line 268
 \OML/cmm/m/it/8 f[]\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 z\OT1/cmr/m/n/8 ) = [][] [](
 \OML/cmm/m/it/8 z \OMS/cmsy/m/n/8 ^^@ \OML/cmm/m/it/8 y\OT1/cmr/m/n/8 )[]\OML/c
 mm/m/it/8 e[]\OT1/cmr/bx/n/8 1[]\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 z \OMS/cmsy/m/n
@@ -1116,7 +1376,7 @@ m/n/8 )d\OML/cmm/m/it/8 y
 [22
 
 ]
-Overfull \hbox (20.33806pt too wide) detected at line 278
+Overfull \hbox (20.33806pt too wide) detected at line 280
 \OML/cmm/m/it/6 '[]\OT1/cmr/m/n/6 (\OML/cmm/m/it/6 u\OT1/cmr/m/n/6 ) = \OML/cmm
 /m/it/6 '[]\OT1/cmr/m/n/6 (\OML/cmm/m/it/6 u\OT1/cmr/m/n/6 )\OML/cmm/m/it/6 '[]
 \OT1/cmr/m/n/6 (\OML/cmm/m/it/6 u\OT1/cmr/m/n/6 ) = []1 \OMS/cmsy/m/n/6 ^^@ [][
@@ -1136,16 +1396,14 @@ m/it/6 u\OT1/cmr/m/n/6 )
 ] [27
 
 ]
-LaTeX Font Info:    Trying to load font information for U+euf on input line 320
+LaTeX Font Info:    Trying to load font information for U+euf on input line 322
 .
-
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)
-[28
+) [28
 
 ]
-Overfull \hbox (17.99826pt too wide) detected at line 332
+Overfull \hbox (17.99826pt too wide) detected at line 334
 \OML/cmm/m/it/9 '[]\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 u\OT1/cmr/m/n/9 ) = (1 + \OM
 L/cmm/m/it/9 p[]\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 e[] \OMS/cmsy/m/n/9 ^^@ \OT1/cm
 r/m/n/9 1))[] = []1 + [][][] \OMS/cmsy/m/n/9 ! \OML/cmm/m/it/9 e[] \OT1/cmr/m/n
@@ -1157,27 +1415,30 @@ r/m/n/9 1))[] = []1 + [][][] \OMS/cmsy/m/n/9 ! \OML/cmm/m/it/9 e[] \OT1/cmr/m/n
 ] [30
 
 ]
-\tf@nav=\write6
-\openout6 = `presentation.nav'.
+\tf@nav=\write7
+\openout7 = `presentation.nav'.
 
-\tf@toc=\write7
-\openout7 = `presentation.toc'.
+\tf@toc=\write8
+\openout8 = `presentation.toc'.
 
-\tf@snm=\write8
-\openout8 = `presentation.snm'.
+\tf@snm=\write9
+\openout9 = `presentation.snm'.
 
- (./presentation.aux)
+(./presentation.aux)
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 93EEEFD0515624B17EAA9FBB5AC19B7F;274.
+(rerunfilecheck)             Checksum: 2DFC8978AC6F7CD71BF2E604DBAED44F;460.
+Package logreq Info: Writing requests to 'presentation.run.xml'.
+\openout1 = `presentation.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 24594 strings out of 480517
- 487513 string characters out of 5898339
- 799691 words of memory out of 5000000
- 41667 multiletter control sequences out of 15000+600000
+ 31516 strings out of 480496
+ 627785 string characters out of 5897906
+ 1336169 words of memory out of 5000000
+ 48551 multiletter control sequences out of 15000+600000
  419380 words of font info for 91 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 101i,19n,108p,416b,777s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,19n,108p,758b,1273s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmbx8.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist
@@ -1214,10 +1475,10 @@ Data/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb><c
 :/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/sy
 mbols/msbm10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1
 /public/amsfonts/symbols/msbm7.pfb>
-Output written on presentation.pdf (30 pages, 445642 bytes).
+Output written on presentation.pdf (30 pages, 450022 bytes).
 PDF statistics:
- 1416 PDF objects out of 1440 (max. 8388607)
- 1253 compressed objects within 13 object streams
- 65 named destinations out of 1000 (max. 500000)
- 87 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1458 PDF objects out of 1728 (max. 8388607)
+ 1294 compressed objects within 13 object streams
+ 69 named destinations out of 1000 (max. 500000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 
