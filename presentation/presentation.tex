@@ -58,6 +58,7 @@ Wie viele Schadensmeldungen erhält eine Versicherung in einem Zeitintervall $(0
 
 Überlegung:
 \hfill \newline
+\only<1>{
 \begin{itemize}
     \item[--] Wir zerlegen das Intervall in $n$ Teilintervalle der Länge $\frac{t}{n}$
     \item[--] n groß $\to$ Teilintervalle kurz $\to$ Annahme, dass nur ein Schaden auftritt
@@ -65,12 +66,9 @@ Wie viele Schadensmeldungen erhält eine Versicherung in einem Zeitintervall $(0
     \item[--] $p = \alpha \frac{t}{n}$
     \item[--] Die einzelnen Teilintervalle sind unabhängig
 \end{itemize}
-\end{frame}
+}
 
-\begin{frame}
-\frametitle{Versicherungen}
-Wie viele Schadensmeldungen erhält eine Versicherung in einem Zeitintervall $(0, t)$?
-
+\only<2>{
 Das bedeutet: eine "Unglücksfee" zieht n mal eine "Kugel" auf der steht "Schaden" (mit Wahrscheinlichkeit $p$) oder "kein Schaden" (mit Wahrscheinlichkeit $1-p$), mit $p = \alpha \frac{t}{n}$.
 
 Anzahl der Schadensfälle $k \sim Bin_{n, \alpha \frac{t}{n}}$
@@ -78,6 +76,7 @@ Anzahl der Schadensfälle $k \sim Bin_{n, \alpha \frac{t}{n}}$
 Je größer wir n wählen, desto besser die Approximation. Also:
 
 $$P(k) = \lim_{n \to \infty} Bin_{n, \alpha \frac{t}{n}}$$
+}
 \end{frame}
 
 \begin{frame}
@@ -91,13 +90,13 @@ $$\lim_{n \to \infty} Bin_{n, p_n}(k) = Poiss_\lambda (k)$$
 \frametitle{Versicherungen}
 {\footnotesize
   \begin{align*}
-  {n \choose k} p_n^k(1-p_n)^k &= \frac{n!}{k!(n-k)!} p_n^k(1-p_n)^{n-k}\\
-  &= \frac{n^k}{k!} \frac{n!}{n^k(n-k)!} p_n^k(1-p_n)^{n-k}\\
-  &\sim \frac{n^k}{k!} p_n^k(1-p_n)^n\\
-  &= \frac{(np_n)^k}{k!}(1-p_n)^n\\
-  &= \frac{(np_n)^k}{k!}(1-\frac{np_n}{n})^n\\
-  &\sim \frac{\lambda^k}{k!}(1-\frac{\lambda}{n})^n\\
-  &\to \frac{\lambda^k}{k!}e^{-\lambda}\\
+ \textcolor<2>{red}{{n \choose k}} p_n^k(1-p_n)^{n-k} &= \textcolor<2>{red}{\frac{n!}{k!(n-k)!}} p_n^k(1-p_n)^{n-k}\\
+  &= \frac{\textcolor<3>{red}{n^k}}{k!} \textcolor<4>{red}{\frac{n!}{\textcolor<3>{red}{n^k}(n-k)!}} p_n^k(1-p_n)^{\textcolor<4>{red}{n-k}}\\
+  &\textcolor<4>{red}{\sim} \frac{\textcolor<5>{red}{n^k}}{k!} \textcolor<5>{red}{p_n^k}(1-p_n)^{\textcolor<4>{red}{n}}\\
+  &= \frac{\textcolor<5>{red}{(np_n)^k}}{k!}(1-p_n)^n\\
+  &= \frac{(\textcolor<7>{red}{np_n})^k}{k!}(1-\frac{\textcolor<7>{red}{\textcolor<6>{red}{n}p_n}}{\textcolor<6>{red}{n}})^n\\
+  &\sim \frac{\textcolor<7>{red}{\lambda}^k}{k!}\textcolor<8>{red}{(1-\frac{\textcolor<7>{red}{\lambda}}{n})^n}\\
+  &\to \frac{\lambda^k}{k!}\textcolor<8>{red}{e^{-\lambda}}\\
   \end{align*}
 }%
 \end{frame}
@@ -128,12 +127,13 @@ Ziel: Jeder (reellwertigen) Zufallsvariable ein möglichst "einfaches" mathemati
 Betrachte die Menge aller Kreise.
 
 Die duale Menge ist die Menge alle einbeschriebenen Quadrate.
+\hfill \newline
 \begin{tikzpicture}
 \node (start) [circle, minimum width=1cm, minimum height=1cm, text centered, draw=black] {};
 \node (end) [rectangle, minimum width=0.7061cm, minimum height=0.7061cm, text centered, draw=black, fill=red!30] {};
 \end{tikzpicture}
-
-Die Relation $>$ für den Flächeninhalt bleibt erhalten. Wollen wir also wissen, ob ein Kreis größer als ein anderer ist, können wir stattdessen auch schauen, ob das einbeschriebene Quadrat größer ist.
+\hfill \newline
+Die Relation $>$ für den Flächeninhalt bleibt erhalten.
 \end{frame}
 
 \begin{frame}

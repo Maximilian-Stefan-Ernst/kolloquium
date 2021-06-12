@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.9)  9 JUN 2021 23:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.9)  12 JUN 2021 14:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1261,17 +1261,17 @@ tex.map}
 ] (./presentation.toc) [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 80.
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 80.
 
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 68
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 80
 .
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -1285,50 +1285,92 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 103.
+(amsmath)                 on input line 102.
 
 
-Overfull \vbox (7.94571pt too high) detected at line 103
+Overfull \vbox (7.94571pt too high) detected at line 102
  []
 
 [6
 
-] [7
+]
+Overfull \vbox (7.94571pt too high) detected at line 102
+ []
 
-] [8
+[7
 
-] [9
+]
+Overfull \vbox (7.94571pt too high) detected at line 102
+ []
 
-] [10
+[8
 
-] [11
+]
+Overfull \vbox (7.94571pt too high) detected at line 102
+ []
+
+[9
+
+]
+Overfull \vbox (7.94571pt too high) detected at line 102
+ []
+
+[10
+
+]
+Overfull \vbox (7.94571pt too high) detected at line 102
+ []
+
+[11
+
+]
+Overfull \vbox (7.94571pt too high) detected at line 102
+ []
+
+[12
+
+]
+Overfull \vbox (7.94571pt too high) detected at line 102
+ []
+
+[13
+
+] [14
+
+] [15
+
+] [16
+
+] [17
+
+] [18
 
 ]
 Overfull \hbox (11.7248pt too wide) detected at line 166
 []
  []
 
-[12
+[19
 
-] [13
+] [20
 
-] [14
+] [21
 
-] [15
+] [22
 
 ]
-<presentation/plots/normal_char.pdf, id=684, 433.62pt x 276.03125pt>
+<presentation/plots/normal_char.pdf, id=931, 433.62pt x 276.03125pt>
 File: presentation/plots/normal_char.pdf Graphic file (type pdf)
 <use presentation/plots/normal_char.pdf>
 Package pdftex.def Info: presentation/plots/normal_char.pdf  used on input line
  212.
 (pdftex.def)             Requested size: 307.30333pt x 195.62132pt.
-[16
+[23
 
- <./presentation/plots/normal_char.pdf>] [17
+ <./presentation/plots/normal_char.pdf>] [24
 
 ]
-<presentation/plots/cantor.pdf, id=774, 433.62pt x 282.05376pt>
+<presentation/plots/cantor.pdf, id=1018, 433.62pt x 282.05376pt>
 File: presentation/plots/cantor.pdf Graphic file (type pdf)
 <use presentation/plots/cantor.pdf>
 Package pdftex.def Info: presentation/plots/cantor.pdf  used on input line 229.
@@ -1338,30 +1380,30 @@ Package pdftex.def Info: presentation/plots/cantor.pdf  used on input line 229.
 Overfull \vbox (1.07848pt too high) detected at line 229
  []
 
-[18
+[25
 
  <./presentation/plots/cantor.pdf>]
-<presentation/plots/cantor_re.pdf, id=828, 433.62pt x 101.37875pt>
+<presentation/plots/cantor_re.pdf, id=1072, 433.62pt x 101.37875pt>
 File: presentation/plots/cantor_re.pdf Graphic file (type pdf)
 <use presentation/plots/cantor_re.pdf>
 Package pdftex.def Info: presentation/plots/cantor_re.pdf  used on input line 2
 35.
 (pdftex.def)             Requested size: 307.30333pt x 71.84637pt.
-<presentation/plots/cantor_im.pdf, id=829, 433.62pt x 102.3825pt>
+<presentation/plots/cantor_im.pdf, id=1073, 433.62pt x 102.3825pt>
 File: presentation/plots/cantor_im.pdf Graphic file (type pdf)
 <use presentation/plots/cantor_im.pdf>
 Package pdftex.def Info: presentation/plots/cantor_im.pdf  used on input line 2
 35.
 (pdftex.def)             Requested size: 307.30333pt x 72.55772pt.
-[19
+[26
 
  <./presentation/plots/cantor_re.pdf> <./presentation/plots/cantor_im.pdf
 
 pdfTeX warning: pdflatex.exe (file ./presentation/plots/cantor_im.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
->] [20
+>] [27
 
-] [21
+] [28
 
 ]
 Overfull \hbox (13.08965pt too wide) detected at line 268
@@ -1373,7 +1415,7 @@ OML/cmm/m/it/8 e[]\OT1/cmr/bx/n/8 1[]\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 y\OT1/cmr/
 m/n/8 )d\OML/cmm/m/it/8 y
  []
 
-[22
+[29
 
 ]
 Overfull \hbox (20.33806pt too wide) detected at line 280
@@ -1385,22 +1427,22 @@ Overfull \hbox (20.33806pt too wide) detected at line 280
 m/it/6 u\OT1/cmr/m/n/6 )
  []
 
-[23
+[30
 
-] [24
+] [31
 
-] [25
+] [32
 
-] [26
+] [33
 
-] [27
+] [34
 
 ]
 LaTeX Font Info:    Trying to load font information for U+euf on input line 322
 .
 (c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [28
+) [35
 
 ]
 Overfull \hbox (17.99826pt too wide) detected at line 334
@@ -1410,9 +1452,9 @@ r/m/n/9 1))[] = []1 + [][][] \OMS/cmsy/m/n/9 ! \OML/cmm/m/it/9 e[] \OT1/cmr/m/n
 /9 = \OML/cmm/m/it/9 '[]
  []
 
-[29
+[36
 
-] [30
+] [37
 
 ]
 \tf@nav=\write7
@@ -1432,10 +1474,10 @@ Package logreq Info: Writing requests to 'presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31516 strings out of 480496
- 627785 string characters out of 5897906
+ 31528 strings out of 480496
+ 627902 string characters out of 5897906
  1336169 words of memory out of 5000000
- 48551 multiletter control sequences out of 15000+600000
+ 48549 multiletter control sequences out of 15000+600000
  419380 words of font info for 91 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  101i,19n,108p,758b,1273s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1475,10 +1517,10 @@ Data/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb><c
 :/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/sy
 mbols/msbm10.pfb><c:/Users/maxim/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1
 /public/amsfonts/symbols/msbm7.pfb>
-Output written on presentation.pdf (30 pages, 450022 bytes).
+Output written on presentation.pdf (37 pages, 464909 bytes).
 PDF statistics:
- 1458 PDF objects out of 1728 (max. 8388607)
- 1294 compressed objects within 13 object streams
- 69 named destinations out of 1000 (max. 500000)
+ 1696 PDF objects out of 1728 (max. 8388607)
+ 1523 compressed objects within 16 object streams
+ 83 named destinations out of 1000 (max. 500000)
  103 words of extra memory for PDF output out of 10000 (max. 10000000)
 
